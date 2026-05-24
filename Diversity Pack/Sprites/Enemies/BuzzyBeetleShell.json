@@ -1,0 +1,366 @@
+{
+	"animations": {
+		"Idle": {
+			"frames": [
+				[
+					16.0,
+					0.0,
+					16.0,
+					16.0
+				]
+			],
+			"speed": 5.0,
+			"loop": true
+		},
+		"Spin": {
+			"frames": [
+				[
+					16.0,
+					0.0,
+					16.0,
+					16.0
+				],
+				[
+					32.0,
+					0.0,
+					16.0,
+					16.0
+				],
+				[
+					48.0,
+					0.0,
+					16.0,
+					16.0
+				],
+				[
+					64.0,
+					0.0,
+					16.0,
+					16.0
+				]
+			],
+			"speed": 15.0,
+			"loop": true
+		},
+		"Wake": {
+			"frames": [
+				[
+					0.0,
+					0.0,
+					16.0,
+					16.0
+				],
+				[
+					16.0,
+					0.0,
+					16.0,
+					16.0
+				]
+			],
+			"speed": 5.0,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"choices": [
+				{"source": "BuzzyBeetle.png",
+				"rect": [32, 0, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [144, 0, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [256, 0, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [368, 0, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [480, 0, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [592, 0, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [704, 0, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [816, 0, 80, 16]}
+				]
+		},
+		"Underground": {
+			"choices": [
+				{"source": "BuzzyBeetle.png",
+				"rect": [32, 16, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [144, 16, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [256, 16, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [368, 16, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [480, 16, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [592, 16, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [704, 16, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [816, 16, 80, 16]}
+				]
+		},
+		"GhostHouse": {
+			"choices": [
+				{"source": "BuzzyBeetle.png",
+				"rect": [32, 16, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [144, 16, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [256, 16, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [368, 16, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [480, 16, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [592, 16, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [704, 16, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [816, 16, 80, 16]}
+				]
+		},
+		"Castle": {
+			"choices": [
+				{"source": "BuzzyBeetle.png",
+				"rect": [32, 32, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [144, 32, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [256, 32, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [368, 32, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [480, 32, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [592, 32, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [704, 32, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [816, 32, 80, 16]}
+				]
+		},
+		"Underwater": {
+			"choices": [
+				{"source": "BuzzyBeetle.png",
+				"rect": [32, 48, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [144, 48, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [256, 48, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [368, 48, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [480, 48, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [592, 48, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [704, 48, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [816, 48, 80, 16]}
+				]
+		},
+		"CastleWater": {
+			"choices": [
+				{"source": "BuzzyBeetle.png",
+				"rect": [32, 48, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [144, 48, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [256, 48, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [368, 48, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [480, 48, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [592, 48, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [704, 48, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [816, 48, 80, 16]}
+				]
+		},
+		"Desert": {
+			"choices": [
+				{"source": "BuzzyBeetle.png",
+				"rect": [32, 64, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [144, 64, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [256, 64, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [368, 64, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [480, 64, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [592, 64, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [704, 64, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [816, 64, 80, 16]}
+				]
+		},
+		"Jungle": {
+			"choices": [
+				{"source": "BuzzyBeetle.png",
+				"rect": [32, 80, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [144, 80, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [256, 80, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [368, 80, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [480, 80, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [592, 80, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [704, 80, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [816, 80, 80, 16]}
+				]
+		},
+		"Snow": {
+			"choices": [
+				{"source": "BuzzyBeetle.png",
+				"rect": [32, 96, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [144, 96, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [256, 96, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [368, 96, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [480, 96, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [592, 96, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [704, 96, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [816, 96, 80, 16]}
+				]
+		},
+		"Volcano": {
+			"choices": [
+				{"source": "BuzzyBeetle.png",
+				"rect": [32, 112, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [144, 112, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [256, 112, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [368, 112, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [480, 112, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [592, 112, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [704, 112, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [816, 112, 80, 16]}
+				]
+		},
+		"Autumn": {
+			"choices": [
+				{"source": "BuzzyBeetle.png",
+				"rect": [32, 128, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [144, 128, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [256, 128, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [368, 128, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [480, 128, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [592, 128, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [704, 128, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [816, 128, 80, 16]}
+				]
+		},
+		"Beach": {
+			"choices": [
+				{"source": "BuzzyBeetle.png",
+				"rect": [32, 144, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [144, 144, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [256, 144, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [368, 144, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [480, 144, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [592, 144, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [704, 144, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [816, 144, 80, 16]}
+				]
+		},
+		"Mountain": {
+			"choices": [
+				{"source": "BuzzyBeetle.png",
+				"rect": [32, 160, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [144, 160, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [256, 160, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [368, 160, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [480, 160, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [592, 160, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [704, 160, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [816, 160, 80, 16]}
+				]
+		},
+		"Space": {
+			"choices": [
+				{"source": "BuzzyBeetle.png",
+				"rect": [32, 176, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [144, 176, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [256, 176, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [368, 176, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [480, 176, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [592, 176, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [704, 176, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [816, 176, 80, 16]}
+				]
+		},
+		"Bonus": {
+			"choices": [
+				{"source": "BuzzyBeetle.png",
+				"rect": [32, 192, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [144, 192, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [256, 192, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [368, 192, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [480, 192, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [592, 192, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [704, 192, 80, 16]},
+				{"source": "BuzzyBeetle.png",
+				"rect": [816, 192, 80, 16]}
+				]
+		}
+	}
+}
