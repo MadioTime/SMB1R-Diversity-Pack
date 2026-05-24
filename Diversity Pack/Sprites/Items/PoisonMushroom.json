@@ -1,0 +1,266 @@
+{
+	"variations": {
+		"default": {
+			"choices": [
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [0, 0, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [16, 0, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [32, 0, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [48, 0, 16, 16]
+				}
+			]
+		},
+		"Underground": {
+			"choices": [
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [0, 16, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [16, 16, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [32, 16, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [48, 16, 16, 16]
+				}
+			]
+		},
+		"GhostHouse": {"link": "Underground"},
+		"Castle": {
+			"choices": [
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [0, 32, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [16, 32, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [32, 32, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [48, 32, 16, 16]
+				}
+			]
+		},
+		"Underwater": {
+			"choices": [
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [0, 48, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [16, 48, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [32, 48, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [48, 48, 16, 16]
+				}
+			]
+		},
+		"CastleWater": {"link": "Underwater"},
+		"Desert": {
+			"choices": [
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [0, 64, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [16, 64, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [32, 64, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [48, 64, 16, 16]
+				}
+			]
+		},
+		"Jungle": {
+			"choices": [
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [0, 80, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [16, 80, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [32, 80, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [48, 80, 16, 16]
+				}
+			]
+		},
+		"Snow": {
+			"choices": [
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [0, 96, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [16, 96, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [32, 96, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [48, 96, 16, 16]
+				}
+			]
+		},
+		"Volcano": {
+			"choices": [
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [0, 112, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [16, 112, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [32, 112, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [48, 112, 16, 16]
+				}
+			]
+		},
+		"Autumn": {
+			"choices": [
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [0, 128, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [16, 128, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [32, 128, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [48, 128, 16, 16]
+				}
+			]
+		},
+		"Beach": {
+			"choices": [
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [0, 144, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [16, 144, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [32, 144, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [48, 144, 16, 16]
+				}
+			]
+		},
+		"Mountain": {
+			"choices": [
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [0, 160, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [16, 160, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [32, 160, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [48, 160, 16, 16]
+				}
+			]
+		},
+		"Space": {
+			"choices": [
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [0, 176, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [16, 176, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [32, 176, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [48, 176, 16, 16]
+				}
+			]
+		},
+		"Bonus": {
+			"choices": [
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [0, 192, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [16, 192, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [32, 192, 16, 16]
+				},
+				{
+					"source": "PoisonMushroom.png",
+					"rect": [48, 192, 16, 16]
+				}
+			]
+		}
+	}
+}
