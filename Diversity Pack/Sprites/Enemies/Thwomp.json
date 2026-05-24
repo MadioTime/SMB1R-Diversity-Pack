@@ -1,0 +1,56 @@
+{
+	"animations": {
+		"Fall": {
+			"frames": [
+				[
+					48.0,
+					0.0,
+					24.0,
+					32.0
+				]
+			],
+			"speed": 5.0,
+			"loop": true
+		},
+		"Idle": {
+			"frames": [
+				[
+					0.0,
+					0.0,
+					24.0,
+					32.0
+				]
+			],
+			"speed": 5.0,
+			"loop": true
+		},
+		"Look": {
+			"frames": [
+				[
+					24.0,
+					0.0,
+					24.0,
+					32.0
+				]
+			],
+			"speed": 5.0,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"choices": [
+				{"source": "Thwomp.png",
+				"rect": [0, 0, 72, 32]},
+				{"source": "Thwomp.png",
+				"rect": [72, 0, 72, 32]},
+				{"source": "Thwomp.png",
+				"rect": [144, 0, 72, 32]},
+				{"source": "Thwomp.png",
+				"rect": [0, 32, 72, 32]},
+				{"source": "Thwomp.png",
+				"rect": [72, 32, 72, 32]}
+				]
+		}
+	}
+}
