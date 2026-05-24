@@ -1,0 +1,43 @@
+{
+	"animations": {
+		"Idle": {
+			"frames": [[0, 0, 16, 32]],
+			"speed": 5.0,
+			"loop": false
+		},
+		"Await": {
+			"frames": [[0, 0, 16, 32]],
+			"speed": 5.0,
+			"loop": false
+		},
+		"Talk": {
+			"frames": [[0, 0, 16, 32]],
+			"speed": 5.0,
+			"loop": false
+		},
+	},
+	"variations": {
+			"choices": [
+				{"source": "Peach.png",
+				"rect": [0, 0, 16, 32]},
+				{"source": "Peach.png",
+				"rect": [16, 0, 16, 32]},
+				{"source": "Peach.png",
+				"rect": [32, 0, 16, 32]},
+				{"source": "Peach.png",
+				"rect": [48, 0, 16, 32]},
+				{"source": "Peach.png",
+				"rect": [64, 0, 16, 32]},
+				{"source": "Peach.png",
+				"rect": [80, 0, 16, 32]},
+				{"source": "Peach.png",
+				"rect": [96, 0, 16, 32]},
+				{"source": "Peach.png",
+				"rect": [112, 0, 16, 32]},
+				{"source": "Peach.png",
+				"rect": [128, 0, 16, 32]},
+				{"source": "Peach.png",
+				"rect": [144, 0, 16, 32]},
+				]
+	}
+}

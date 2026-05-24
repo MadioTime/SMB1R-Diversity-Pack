@@ -1,0 +1,38 @@
+{
+	"animations": {
+		"default": {
+			"frames": [
+				[
+					0.0,
+					0.0,
+					16.0,
+					16.0
+				],
+				[
+					16.0,
+					0.0,
+					16.0,
+					16.0
+				]
+			],
+			"speed": 5.0,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"choices": [
+				{"source": "CheepCheep.png",
+				"rect": [0, 112, 32, 16]},
+				{"source": "CheepCheep.png",
+				"rect": [32, 112, 32, 16]},
+				{"source": "CheepCheep.png",
+				"rect": [64, 112, 32, 16]},
+				{"source": "CheepCheep.png",
+				"rect": [96, 112, 32, 16]},
+				{"source": "CheepCheep.png",
+				"rect": [128, 112, 32, 16]}
+				]
+		}
+	}
+}

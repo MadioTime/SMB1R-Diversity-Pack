@@ -1,0 +1,137 @@
+{
+	"animations": {
+		"Walk": {
+			"frames": [
+				[
+					0.0,
+					0.0,
+					16.0,
+					32.0
+				],
+				[
+					16.0,
+					0.0,
+					16.0,
+					32.0
+				]
+			],
+			"speed": 5.0,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"choices": [
+				{"source": "KoopaTroopa.png",
+				"rect": [0, 0, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [96, 0, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [192, 0, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [288, 0, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [384, 0, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [480, 0, 32, 32]}
+				]
+		},
+		"Underground": {
+			"choices": [
+				{"source": "KoopaTroopa.png",
+				"rect": [0, 32, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [96, 32, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [192, 32, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [288, 32, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [384, 32, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [480, 32, 32, 32]}
+				]
+		},
+		"Castle": {"link": "Underground"},
+		"GhostHouse": {"link": "Underground"},
+		"Underwater": {
+			"choices": [
+				{"source": "KoopaTroopa.png",
+				"rect": [0, 64, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [96, 64, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [192, 64, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [288, 64, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [384, 64, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [480, 64, 32, 32]}
+				]
+		},		"Snow": {
+			"choices": [
+				{"source": "KoopaTroopa.png",
+				"rect": [0, 96, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [96, 96, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [192, 96, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [288, 96, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [384, 96, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [480, 96, 32, 32]}
+				]
+		},
+		"Space": {
+			"choices": [
+				{"source": "KoopaTroopa.png",
+				"rect": [0, 128, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [96, 128, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [192, 128, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [288, 128, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [384, 128, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [480, 128, 32, 32]}
+				]
+		},
+		"Volcano": {
+			"choices": [
+				{"source": "KoopaTroopa.png",
+				"rect": [0, 160, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [96, 160, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [192, 160, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [288, 160, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [384, 160, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [480, 160, 32, 32]}
+				]
+		},
+		"Bonus": {
+			"choices": [
+				{"source": "KoopaTroopa.png",
+				"rect": [0, 192, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [96, 192, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [192, 192, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [288, 192, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [384, 192, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [480, 192, 32, 32]}
+				]
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"animations": {
+		"default": {
+			"frames": [
+				[
+					0.0,
+					0.0,
+					16.0,
+					24.0
+				],
+				[
+					16.0,
+					0.0,
+					16.0,
+					24.0
+				]
+			],
+			"speed": 10.0,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"choices": [
+				{"source": "RedPiranhaPlant.png",
+				"rect": [0, 0, 32, 24]},
+				{"source": "RedPiranhaPlant.png",
+				"rect": [32, 0, 32, 24]},
+				{"source": "RedPiranhaPlant.png",
+				"rect": [64, 0, 48, 24]},
+				{"source": "RedPiranhaPlant.png",
+				"rect": [96, 0, 48, 24]},
+				{"source": "RedPiranhaPlant.png",
+				"rect": [128, 0, 48, 24]},
+				{"source": "RedPiranhaPlant.png",
+				"rect": [160, 0, 48, 24]},
+				{"source": "RedPiranhaPlant.png",
+				"rect": [192, 0, 48, 24]},
+				{"source": "RedPiranhaPlant.png",
+				"rect": [224, 0, 48, 24]}
+				]
+		}
+	}
+}

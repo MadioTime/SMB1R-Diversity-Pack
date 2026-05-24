@@ -1,0 +1,157 @@
+{
+	"animations": {
+		"Hammer": {
+			"frames": [
+				[
+					36.0,
+					0.0,
+					18.0,
+					28.0
+				],
+				[
+					54.0,
+					0.0,
+					18.0,
+					28.0
+				]
+			],
+			"speed": 5.0,
+			"loop": true
+		},
+		"Idle": {
+			"frames": [
+				[
+					0.0,
+					0.0,
+					18.0,
+					28.0
+				],
+				[
+					18.0,
+					0.0,
+					18.0,
+					28.0
+				]
+			],
+			"speed": 5.0,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"choices": [
+				{"source": "HammerBro.png",
+				"rect": [0, 0, 72, 28]},
+				{"source": "HammerBro.png",
+				"rect": [72, 0, 72, 28]},
+				{"source": "HammerBro.png",
+				"rect": [144, 0, 72, 28]},
+				{"source": "HammerBro.png",
+				"rect": [216, 0, 72, 28]},
+				{"source": "HammerBro.png",
+				"rect": [288, 0, 72, 28]},
+				{"source": "HammerBro.png",
+				"rect": [360, 0, 72, 28]},
+				]
+		},
+		"Underground": {
+			"choices": [
+				{"source": "HammerBro.png",
+				"rect": [0, 28, 72, 28]},
+				{"source": "HammerBro.png",
+				"rect": [72, 28, 72, 28]},
+				{"source": "HammerBro.png",
+				"rect": [144, 28, 72, 28]},
+				{"source": "HammerBro.png",
+				"rect": [216, 28, 72, 28]},
+				{"source": "HammerBro.png",
+				"rect": [288, 28, 72, 28]},
+				{"source": "HammerBro.png",
+				"rect": [360, 28, 72, 28]},
+				]
+		},
+		"Castle": {"link": "Underground"},
+		"GhostHouse": {"link": "Underground"},
+		"Underwater": {
+			"choices": [
+				{"source": "HammerBro.png",
+				"rect": [0, 56, 72, 28]},
+				{"source": "HammerBro.png",
+				"rect": [72, 56, 72, 28]},
+				{"source": "HammerBro.png",
+				"rect": [144, 56, 72, 28]},
+				{"source": "HammerBro.png",
+				"rect": [216, 56, 72, 28]},
+				{"source": "HammerBro.png",
+				"rect": [288, 56, 72, 28]},
+				{"source": "HammerBro.png",
+				"rect": [360, 56, 72, 28]},
+				]
+		},
+		"CastleWater": {"link": "Underwater"},
+		"Snow": {
+			"choices": [
+				{"source": "HammerBro.png",
+				"rect": [0, 84, 72, 28]},
+				{"source": "HammerBro.png",
+				"rect": [72, 84, 72, 28]},
+				{"source": "HammerBro.png",
+				"rect": [144, 84, 72, 28]},
+				{"source": "HammerBro.png",
+				"rect": [216, 84, 72, 28]},
+				{"source": "HammerBro.png",
+				"rect": [288, 84, 72, 28]},
+				{"source": "HammerBro.png",
+				"rect": [360, 84, 72, 28]},
+				]
+		},
+		"Space": {
+			"choices": [
+				{"source": "HammerBro.png",
+				"rect": [0, 112, 72, 28]},
+				{"source": "HammerBro.png",
+				"rect": [72, 112, 72, 28]},
+				{"source": "HammerBro.png",
+				"rect": [144, 112, 72, 28]},
+				{"source": "HammerBro.png",
+				"rect": [216, 112, 72, 28]},
+				{"source": "HammerBro.png",
+				"rect": [288, 112, 72, 28]},
+				{"source": "HammerBro.png",
+				"rect": [360, 112, 72, 28]},
+				]
+		},
+		"Volcano": {
+			"choices": [
+				{"source": "HammerBro.png",
+				"rect": [0, 140, 72, 28]},
+				{"source": "HammerBro.png",
+				"rect": [72, 140, 72, 28]},
+				{"source": "HammerBro.png",
+				"rect": [144, 140, 72, 28]},
+				{"source": "HammerBro.png",
+				"rect": [216, 140, 72, 28]},
+				{"source": "HammerBro.png",
+				"rect": [288, 140, 72, 28]},
+				{"source": "HammerBro.png",
+				"rect": [360, 140, 72, 28]},
+				]
+		},
+		"Bonus": {
+			"choices": [
+				{"source": "HammerBro.png",
+				"rect": [0, 168, 72, 28]},
+				{"source": "HammerBro.png",
+				"rect": [72, 168, 72, 28]},
+				{"source": "HammerBro.png",
+				"rect": [144, 168, 72, 28]},
+				{"source": "HammerBro.png",
+				"rect": [216, 168, 72, 28]},
+				{"source": "HammerBro.png",
+				"rect": [288, 168, 72, 28]},
+				{"source": "HammerBro.png",
+				"rect": [360, 168, 72, 28]},
+				]
+		}
+	}
+}

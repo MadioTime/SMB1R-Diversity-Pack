@@ -1,0 +1,98 @@
+{
+	"animations": {
+		"Idle": {
+			"frames": [
+				[
+					0.0,
+					16.0,
+					16.0,
+					16.0
+				]
+			],
+			"speed": 5.0,
+			"loop": true
+		},
+		"Spin": {
+			"frames": [
+				[
+					16.0,
+					16.0,
+					16.0,
+					16.0
+				],
+				[
+					32.0,
+					16.0,
+					16.0,
+					16.0
+				],
+				[
+					48.0,
+					16.0,
+					16.0,
+					16.0
+				],
+				[
+					0.0,
+					16.0,
+					16.0,
+					16.0
+				]
+			],
+			"speed": 15.0,
+			"loop": true
+		},
+		"Wake": {
+			"frames": [
+				[
+					0.0,
+					0.0,
+					16.0,
+					16.0
+				],
+				[
+					0.0,
+					16.0,
+					16.0,
+					16.0
+				]
+			],
+			"speed": 5.0,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"choices": [
+				{"source": "KoopaTroopa.png",
+				"rect": [32, 224, 64, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [128, 224, 64, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [224, 224, 64, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [320, 224, 64, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [416, 224, 64, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [512, 224, 64, 32]}
+				]
+		},
+		"Snow": {
+			"choices": [
+				{"source": "KoopaTroopa.png",
+				"rect": [32, 256, 64, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [128, 256, 64, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [224, 256, 64, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [320, 256, 64, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [416, 256, 64, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [512, 256, 64, 32]}
+				]
+		}
+	}
+}

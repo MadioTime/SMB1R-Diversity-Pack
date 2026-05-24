@@ -1,0 +1,698 @@
+{
+	"animations": {
+		"default": {
+			"frames": [
+				[0, 0, 16, 16],
+				[0, 0, 16, 16],
+				[0, 0, 16, 16],
+				[0, 0, 16, 16],
+				[0, 0, 16, 16],
+				[0, 0, 16, 16],
+				[0, 0, 16, 16],
+				[0, 0, 16, 16],
+				[0, 0, 16, 16],
+				[0, 0, 16, 16],
+				[0, 16, 16, 16],
+				[0, 32, 16, 16],
+				[0, 48, 16, 16]
+			],
+			"speed": 10,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"choices": [
+				{
+					"source": "QuestionBlock.png",
+					"rect": [0, 0, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [16, 0, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [32, 0, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [48, 0, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [64, 0, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [80, 0, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [96, 0, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [112, 0, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [128, 0, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [144, 0, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [160, 0, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [176, 0, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [192, 0, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [208, 0, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [224, 0, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [240, 0, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [256, 0, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [272, 0, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [288, 0, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [304, 0, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [320, 0, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [336, 0, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [352, 0, 16, 64]
+				}
+			]
+		},
+		"Underground": {
+			"choices": [
+				{
+					"source": "QuestionBlock.png",
+					"rect": [0, 64, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [16, 64, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [32, 64, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [48, 64, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [64, 64, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [80, 64, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [96, 64, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [112, 64, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [128, 64, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [144, 64, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [160, 64, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [176, 64, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [192, 64, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [208, 64, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [224, 64, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [224, 64, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [256, 64, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [272, 64, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [288, 64, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [304, 64, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [320, 64, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [336, 64, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [352, 64, 16, 64]
+				}
+			]
+		},
+		"GhostHouse": {"link": "Underground"},
+		"Castle": {
+			"choices": [
+				{
+					"source": "QuestionBlock.png",
+					"rect": [0, 128, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [16, 128, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [32, 128, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [48, 128, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [64, 128, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [80, 128, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [96, 128, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [112, 128, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [128, 128, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [144, 128, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [160, 128, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [176, 128, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [192, 128, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [208, 128, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [224, 128, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [240, 128, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [256, 128, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [272, 128, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [288, 128, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [304, 128, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [320, 128, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [336, 128, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [352, 128, 16, 64]
+				}
+			]
+		},
+		"Snow": {
+			"choices": [
+				{
+					"source": "QuestionBlock.png",
+					"rect": [0, 192, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [16, 192, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [32, 192, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [48, 192, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [64, 192, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [80, 192, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [96, 192, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [112, 192, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [128, 192, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [144, 192, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [160, 192, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [176, 192, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [192, 192, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [208, 192, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [224, 192, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [240, 192, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [256, 192, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [272, 192, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [288, 192, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [304, 192, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [320, 192, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [336, 192, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [352, 192, 16, 64]
+				}
+			]
+		},
+		"Space": {
+			"choices": [
+				{
+					"source": "QuestionBlock.png",
+					"rect": [0, 256, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [16, 256, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [32, 256, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [48, 256, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [64, 256, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [80, 256, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [96, 256, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [112, 256, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [128, 256, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [144, 256, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [160, 256, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [176, 256, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [192, 256, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [208, 256, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [224, 256, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [240, 256, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [256, 256, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [272, 256, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [288, 256, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [304, 256, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [320, 256, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [336, 256, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [352, 256, 16, 64]
+				}
+			]
+		},
+		"Volcano": {
+			"choices": [
+				{
+					"source": "QuestionBlock.png",
+					"rect": [0, 320, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [16, 320, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [32, 320, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [48, 320, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [64, 320, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [80, 320, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [96, 320, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [112, 320, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [128, 320, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [144, 320, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [160, 320, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [176, 320, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [192, 320, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [208, 320, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [224, 320, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [240, 320, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [256, 320, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [272, 320, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [288, 320, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [304, 320, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [320, 320, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [336, 320, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [352, 320, 16, 64]
+				}
+			]
+		},
+		"Bonus": {
+			"choices": [
+				{
+					"source": "QuestionBlock.png",
+					"rect": [0, 384, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [16, 384, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [32, 384, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [48, 384, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [64, 384, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [80, 384, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [96, 384, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [112, 384, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [128, 384, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [144, 384, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [160, 384, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [176, 384, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [192, 384, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [208, 384, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [224, 384, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [240, 384, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [256, 384, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [272, 384, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [288, 384, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [304, 384, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [320, 384, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [336, 384, 16, 64]
+				},
+				{
+					"source": "QuestionBlock.png",
+					"rect": [352, 384, 16, 64]
+				}
+			]
+		}
+	}
+}
