@@ -49,7 +49,9 @@
 				{"source": "Thwomp.png",
 				"rect": [0, 32, 72, 32]},
 				{"source": "Thwomp.png",
-				"rect": [72, 32, 72, 32]}
+				"rect": [72, 32, 72, 32]},
+				{"source": "Thwomp.png",
+				"rect": [144, 32, 72, 32]}
 				]
 		}
 	}
