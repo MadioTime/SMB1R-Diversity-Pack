@@ -1,0 +1,421 @@
+{
+	"animations": {
+		"default": {
+			"frames": [
+				[0, 0, 16, 16],
+				[16, 0, 16, 16],
+				[32, 0, 16, 16],
+				[48, 0, 16, 16]
+			],
+			"speed": 15,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"SMB1": {
+				"choices": [
+					{
+						"source": "SuperballFlower.png",
+						"rect": [0, 0, 64, 16]
+					},
+					{
+						"source": "SuperballFlower.png",
+						"rect": [64, 0, 64, 16]
+					},
+					{
+						"source": "SuperballFlower.png",
+						"rect": [128, 0, 64, 16]
+					},
+					{
+						"source": "SuperballFlower.png",
+						"rect": [192, 0, 64, 16]
+					},
+					{
+						"source": "SuperballFlower.png",
+						"rect": [256, 0, 64, 16]
+					},
+					{
+						"source": "SuperballFlower.png",
+						"rect": [320, 0, 64, 16]
+					}
+				]
+			},
+			"SMBS": {
+				"choices": [
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [0, 0, 64, 16]
+					},
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [64, 0, 64, 16]
+					},
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [128, 0, 64, 16]
+					},
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [192, 0, 64, 16]
+					},
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [256, 0, 64, 16]
+					},
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [320, 0, 64, 16]
+					}
+				]
+			}
+		},
+		"Castle": {"link": "Underground"},
+		"GhostHouse": {"link": "Underground"},
+		"Underground": {
+			"SMB1": {
+				"choices": [
+					{
+						"source": "SuperballFlower.png",
+						"rect": [0, 16, 64, 16]
+					},
+					{
+						"source": "SuperballFlower.png",
+						"rect": [64, 16, 64, 16]
+					},
+					{
+						"source": "SuperballFlower.png",
+						"rect": [128, 16, 64, 16]
+					},
+					{
+						"source": "SuperballFlower.png",
+						"rect": [192, 16, 64, 16]
+					},
+					{
+						"source": "SuperballFlower.png",
+						"rect": [256, 16, 64, 16]
+					},
+					{
+						"source": "SuperballFlower.png",
+						"rect": [320, 16, 64, 16]
+					}
+				]
+			},
+			"SMBS": {
+				"choices": [
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [0, 16, 64, 16]
+					},
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [64, 16, 64, 16]
+					},
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [128, 16, 64, 16]
+					},
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [192, 16, 64, 16]
+					},
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [256, 16, 64, 16]
+					},
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [320, 16, 64, 16]
+					}
+				]
+			}
+		},
+		"Underwater": {
+			"SMB1": {
+				"choices": [
+					{
+						"source": "SuperballFlower.png",
+						"rect": [0, 32, 64, 16]
+					},
+					{
+						"source": "SuperballFlower.png",
+						"rect": [64, 32, 64, 16]
+					},
+					{
+						"source": "SuperballFlower.png",
+						"rect": [128, 32, 64, 16]
+					},
+					{
+						"source": "SuperballFlower.png",
+						"rect": [192, 32, 64, 16]
+					},
+					{
+						"source": "SuperballFlower.png",
+						"rect": [256, 32, 64, 16]
+					},
+					{
+						"source": "SuperballFlower.png",
+						"rect": [320, 32, 64, 16]
+					}
+				]
+			},
+			"SMBS": {
+				"choices": [
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [0, 32, 64, 16]
+					},
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [64, 32, 64, 16]
+					},
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [128, 32, 64, 16]
+					},
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [192, 32, 64, 16]
+					},
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [256, 32, 64, 16]
+					},
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [320, 32, 64, 16]
+					}
+				]
+			}
+		},
+		"CastleWater": {"link": "Underwater"},
+		"Snow": {
+			"SMB1": {
+				"choices": [
+					{
+						"source": "SuperballFlower.png",
+						"rect": [0, 48, 64, 16]
+					},
+					{
+						"source": "SuperballFlower.png",
+						"rect": [64, 48, 64, 16]
+					},
+					{
+						"source": "SuperballFlower.png",
+						"rect": [128, 48, 64, 16]
+					},
+					{
+						"source": "SuperballFlower.png",
+						"rect": [192, 48, 64, 16]
+					},
+					{
+						"source": "SuperballFlower.png",
+						"rect": [256, 48, 64, 16]
+					},
+					{
+						"source": "SuperballFlower.png",
+						"rect": [320, 48, 64, 16]
+					}
+				]
+			},
+			"SMBS": {
+				"choices": [
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [0, 48, 64, 16]
+					},
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [64, 48, 64, 16]
+					},
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [128, 48, 64, 16]
+					},
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [192, 48, 64, 16]
+					},
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [256, 48, 64, 16]
+					},
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [320, 48, 64, 16]
+					}
+				]
+			}
+		},
+		"Space": {
+			"SMB1": {
+				"choices": [
+					{
+						"source": "SuperballFlower.png",
+						"rect": [0, 64, 64, 16]
+					},
+					{
+						"source": "SuperballFlower.png",
+						"rect": [64, 64, 64, 16]
+					},
+					{
+						"source": "SuperballFlower.png",
+						"rect": [128, 64, 64, 16]
+					},
+					{
+						"source": "SuperballFlower.png",
+						"rect": [192, 64, 64, 16]
+					},
+					{
+						"source": "SuperballFlower.png",
+						"rect": [256, 64, 64, 16]
+					},
+					{
+						"source": "SuperballFlower.png",
+						"rect": [320, 64, 64, 16]
+					}
+				]
+			},
+			"SMBS": {
+				"choices": [
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [0, 64, 64, 16]
+					},
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [64, 64, 64, 16]
+					},
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [128, 64, 64, 16]
+					},
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [192, 64, 64, 16]
+					},
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [256, 64, 64, 16]
+					}
+				]
+			}
+		},
+		"Volcano": {
+			"SMB1": {
+				"choices": [
+					{
+						"source": "SuperballFlower.png",
+						"rect": [0, 80, 64, 16]
+					},
+					{
+						"source": "SuperballFlower.png",
+						"rect": [64, 80, 64, 16]
+					},
+					{
+						"source": "SuperballFlower.png",
+						"rect": [128, 80, 64, 16]
+					},
+					{
+						"source": "SuperballFlower.png",
+						"rect": [192, 80, 64, 16]
+					},
+					{
+						"source": "SuperballFlower.png",
+						"rect": [256, 80, 64, 16]
+					},
+					{
+						"source": "SuperballFlower.png",
+						"rect": [320, 80, 64, 16]
+					}
+				]
+			},
+			"SMBS": {
+				"choices": [
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [0, 80, 64, 16]
+					},
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [64, 80, 64, 16]
+					},
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [128, 80, 64, 16]
+					},
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [192, 80, 64, 16]
+					},
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [256, 80, 64, 16]
+					},
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [320, 80, 64, 16]
+					}
+				]
+			}
+		},
+		"Bonus": {
+			"SMB1": {
+				"choices": [
+					{
+						"source": "SuperballFlower.png",
+						"rect": [0, 96, 64, 16]
+					},
+					{
+						"source": "SuperballFlower.png",
+						"rect": [64, 96, 64, 16]
+					},
+					{
+						"source": "SuperballFlower.png",
+						"rect": [128, 96, 64, 16]
+					},
+					{
+						"source": "SuperballFlower.png",
+						"rect": [192, 96, 64, 16]
+					},
+					{
+						"source": "SuperballFlower.png",
+						"rect": [256, 96, 64, 16]
+					},
+					{
+						"source": "SuperballFlower.png",
+						"rect": [320, 96, 64, 16]
+					}
+				]
+			},
+			"SMBS": {
+				"choices": [
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [0, 96, 64, 16]
+					},
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [64, 96, 64, 16]
+					},
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [128, 96, 64, 16]
+					},
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [192, 96, 64, 16]
+					},
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [256, 96, 64, 16]
+					},
+					{
+						"source": "SuperballFlowerSP.png",
+						"rect": [320, 96, 64, 16]
+					}
+				]
+			}
+		}
+	}
+}
