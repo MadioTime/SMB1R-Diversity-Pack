@@ -1,26 +1,102 @@
 {
 	"variations": {
-		"choices": [
-			{
-				"source": "1UP.png",
-				"rect": [0, 0, 16, 16]
+		"config:Recolored 1-up Mushrooms": {
+			"On": {
+				"choices": [
+					{
+						"source": "1UP.png",
+						"rect": [0, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [16, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [32, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [48, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [64, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [80, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [96, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [112, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [128, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [144, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [160, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [176, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [192, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [208, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [224, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [240, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [256, 16, 16, 16]
+					}
+				]
 			},
-			{
-				"source": "1UP.png",
-				"rect": [16, 0, 16, 16]
-			},
-			{
-				"source": "1UP.png",
-				"rect": [32, 0, 16, 16]
-			},
-			{
-				"source": "1UP.png",
-				"rect": [48, 0, 16, 16]
-			},
-			{
-				"source": "1UP.png",
-				"rect": [64, 0, 16, 16]
+			"Off (1-up Hearts)": {
+				"choices": [
+					{
+						"source": "1UP.png",
+						"rect": [0, 0, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [16, 0, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [32, 0, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [48, 0, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [64, 0, 16, 16]
+					}
+				]
 			}
-		]
+		}
 	}
 }
