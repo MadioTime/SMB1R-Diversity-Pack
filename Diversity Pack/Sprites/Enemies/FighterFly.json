@@ -1,0 +1,235 @@
+{
+	"animations": {
+		"Fly": {
+			"frames": [
+				[
+					0.0,
+					0.0,
+					16.0,
+					16.0
+				],
+				[
+					16.0,
+					0.0,
+					16.0,
+					16.0
+				]
+			],
+			"speed": 15.0,
+			"loop": true
+		},
+		"Idle": {
+			"frames": [
+				[
+					32.0,
+					0.0,
+					16.0,
+					16.0
+				]
+			],
+			"speed": 5.0,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"choices": [
+				{
+				"source": "FighterFly.png",
+				"rect": [0, 0, 48, 16]
+				},
+				{
+				"source": "FighterFly.png",
+				"rect": [48, 0, 48, 16]
+				},
+				{
+				"source": "FighterFly.png",
+				"rect": [96, 0, 48, 16]
+				},
+				{
+				"source": "FighterFly.png",
+				"rect": [144, 0, 48, 16]
+				},
+				{
+				"source": "FighterFly.png",
+				"rect": [192, 0, 48, 16]
+				},
+				{
+				"source": "FighterFly.png",
+				"rect": [240, 0, 48, 16]
+				}
+			]
+		},
+		"Underground": {
+			"choices": [
+				{
+				"source": "FighterFly.png",
+				"rect": [0, 16, 48, 16]
+				},
+				{
+				"source": "FighterFly.png",
+				"rect": [48, 16, 48, 16]
+				},
+				{
+				"source": "FighterFly.png",
+				"rect": [96, 16, 48, 16]
+				},
+				{
+				"source": "FighterFly.png",
+				"rect": [144, 16, 48, 16]
+				},
+				{
+				"source": "FighterFly.png",
+				"rect": [192, 16, 48, 16]
+				},
+				{
+				"source": "FighterFly.png",
+				"rect": [240, 16, 48, 16]
+				}
+			]
+		},
+		"GhostHouse": {"link": "Underground"},
+		"Castle": {"link": "Underground"},
+		"Underwater": {
+			"choices": [
+				{
+				"source": "FighterFly.png",
+				"rect": [0, 32, 48, 16]
+				},
+				{
+				"source": "FighterFly.png",
+				"rect": [48, 32, 48, 16]
+				},
+				{
+				"source": "FighterFly.png",
+				"rect": [96, 32, 48, 16]
+				},
+				{
+				"source": "FighterFly.png",
+				"rect": [144, 32, 48, 16]
+				},
+				{
+				"source": "FighterFly.png",
+				"rect": [192, 32, 48, 16]
+				},
+				{
+				"source": "FighterFly.png",
+				"rect": [240, 32, 48, 16]
+				},
+			]
+		},
+		"CastleWater": {"link": "Underwater"},
+		"Snow": {
+			"choices": [
+				{
+				"source": "FighterFly.png",
+				"rect": [0, 48, 48, 16]
+				},
+				{
+				"source": "FighterFly.png",
+				"rect": [48, 48, 48, 16]
+				},
+				{
+				"source": "FighterFly.png",
+				"rect": [96, 48, 48, 16]
+				},
+				{
+				"source": "FighterFly.png",
+				"rect": [144, 48, 48, 16]
+				},
+				{
+				"source": "FighterFly.png",
+				"rect": [192, 48, 48, 16]
+				},
+				{
+				"source": "FighterFly.png",
+				"rect": [240, 48, 48, 16]
+				},
+			]
+		},
+		"Space": {
+			"choices": [
+				{
+				"source": "FighterFly.png",
+				"rect": [0, 64, 48, 16]
+				},
+				{
+				"source": "FighterFly.png",
+				"rect": [48, 64, 48, 16]
+				},
+				{
+				"source": "FighterFly.png",
+				"rect": [96, 64, 48, 16]
+				},
+				{
+				"source": "FighterFly.png",
+				"rect": [144, 64, 48, 16]
+				},
+				{
+				"source": "FighterFly.png",
+				"rect": [192, 64, 48, 16]
+				},
+				{
+				"source": "FighterFly.png",
+				"rect": [240, 64, 48, 16]
+				},
+			]
+		},
+		"Volcano": {
+			"choices": [
+				{
+				"source": "FighterFly.png",
+				"rect": [0, 80, 48, 16]
+				},
+				{
+				"source": "FighterFly.png",
+				"rect": [48, 80, 48, 16]
+				},
+				{
+				"source": "FighterFly.png",
+				"rect": [96, 80, 48, 16]
+				},
+				{
+				"source": "FighterFly.png",
+				"rect": [144, 80, 48, 16]
+				},
+				{
+				"source": "FighterFly.png",
+				"rect": [192, 80, 48, 16]
+				},
+				{
+				"source": "FighterFly.png",
+				"rect": [240, 80, 48, 16]
+				},
+			]
+		},
+		"Bonus": {
+			"choices": [
+				{
+				"source": "FighterFly.png",
+				"rect": [0, 96, 48, 16]
+				},
+				{
+				"source": "FighterFly.png",
+				"rect": [48, 96, 48, 16]
+				},
+				{
+				"source": "FighterFly.png",
+				"rect": [96, 96, 48, 16]
+				},
+				{
+				"source": "FighterFly.png",
+				"rect": [144, 96, 48, 16]
+				},
+				{
+				"source": "FighterFly.png",
+				"rect": [192, 96, 48, 16]
+				},
+				{
+				"source": "FighterFly.png",
+				"rect": [240, 96, 48, 16]
+				}
+			]
+		}
+	}
+}
