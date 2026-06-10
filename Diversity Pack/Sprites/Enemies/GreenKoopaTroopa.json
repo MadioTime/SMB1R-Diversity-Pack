@@ -33,7 +33,11 @@
 				{"source": "KoopaTroopa.png",
 				"rect": [384, 0, 32, 32]},
 				{"source": "KoopaTroopa.png",
-				"rect": [480, 0, 32, 32]}
+				"rect": [480, 0, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [576, 0, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [672, 0, 32, 32]}
 				]
 		},
 		"Underground": {
@@ -49,7 +53,11 @@
 				{"source": "KoopaTroopa.png",
 				"rect": [384, 32, 32, 32]},
 				{"source": "KoopaTroopa.png",
-				"rect": [480, 32, 32, 32]}
+				"rect": [480, 32, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [576, 32, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [672, 32, 32, 32]}
 				]
 		},
 		"Castle": {"link": "Underground"},
@@ -67,9 +75,14 @@
 				{"source": "KoopaTroopa.png",
 				"rect": [384, 64, 32, 32]},
 				{"source": "KoopaTroopa.png",
-				"rect": [480, 64, 32, 32]}
+				"rect": [480, 64, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [576, 64, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [672, 64, 32, 32]}
 				]
-		},		"Snow": {
+		},		
+		"Snow": {
 			"choices": [
 				{"source": "KoopaTroopa.png",
 				"rect": [0, 96, 32, 32]},
@@ -82,7 +95,11 @@
 				{"source": "KoopaTroopa.png",
 				"rect": [384, 96, 32, 32]},
 				{"source": "KoopaTroopa.png",
-				"rect": [480, 96, 32, 32]}
+				"rect": [480, 96, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [576, 96, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [672, 96, 32, 32]}
 				]
 		},
 		"Space": {
@@ -98,7 +115,11 @@
 				{"source": "KoopaTroopa.png",
 				"rect": [384, 128, 32, 32]},
 				{"source": "KoopaTroopa.png",
-				"rect": [480, 128, 32, 32]}
+				"rect": [480, 128, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [576, 128, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [672, 128, 32, 32]}
 				]
 		},
 		"Volcano": {
@@ -114,7 +135,11 @@
 				{"source": "KoopaTroopa.png",
 				"rect": [384, 160, 32, 32]},
 				{"source": "KoopaTroopa.png",
-				"rect": [480, 160, 32, 32]}
+				"rect": [480, 160, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [576, 160, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [672, 160, 32, 32]}
 				]
 		},
 		"Bonus": {
@@ -130,7 +155,11 @@
 				{"source": "KoopaTroopa.png",
 				"rect": [384, 192, 32, 32]},
 				{"source": "KoopaTroopa.png",
-				"rect": [480, 192, 32, 32]}
+				"rect": [480, 192, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [576, 192, 32, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [672, 192, 32, 32]}
 				]
 		}
 	}

@@ -75,7 +75,11 @@
 				{"source": "KoopaTroopa.png",
 				"rect": [416, 224, 64, 32]},
 				{"source": "KoopaTroopa.png",
-				"rect": [512, 224, 64, 32]}
+				"rect": [512, 224, 64, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [608, 224, 64, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [704, 224, 64, 32]}
 				]
 		},
 		"Snow": {
@@ -91,7 +95,11 @@
 				{"source": "KoopaTroopa.png",
 				"rect": [416, 256, 64, 32]},
 				{"source": "KoopaTroopa.png",
-				"rect": [512, 256, 64, 32]}
+				"rect": [512, 256, 64, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [608, 256, 64, 32]},
+				{"source": "KoopaTroopa.png",
+				"rect": [704, 256, 64, 32]}
 				]
 		}
 	}
