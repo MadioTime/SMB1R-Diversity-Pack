@@ -1,0 +1,32 @@
+{
+	"variations": {
+		"default": {
+			"choices": [
+				{
+					"source": "Hachisuke.png", 
+					"rect": [0, 0, 16, 16]
+				},
+				{
+					"source": "Hachisuke.png", 
+					"rect": [16, 0, 16, 16]
+				},
+				{
+					"source": "Hachisuke.png", 
+					"rect": [32, 0, 16, 16]
+				},
+				{
+					"source": "Hachisuke.png", 
+					"rect": [48, 0, 16, 16]
+				},
+				{
+					"source": "Hachisuke.png", 
+					"rect": [64, 0, 16, 16]
+				},
+				{
+					"source": "Hachisuke.png", 
+					"rect": [80, 0, 16, 16]
+				}
+			]
+		}
+	}
+}
