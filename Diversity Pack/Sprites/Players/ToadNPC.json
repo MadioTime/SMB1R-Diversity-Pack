@@ -76,11 +76,11 @@
 				{"source": "ToadNPC.png",
 				"rect": [192, 64, 32, 32]},
 				{"source": "ToadNPC.png",
-				"rect": [214, 0, 32, 32]},
+				"rect": [224, 0, 32, 32]},
 				{"source": "ToadNPC.png",
-				"rect": [214, 32, 32, 32]},
+				"rect": [224, 32, 32, 32]},
 				{"source": "ToadNPC.png",
-				"rect": [246, 32, 32, 32]},
+				"rect": [256, 32, 32, 32]},
 			]
 		},
 		"SMBLL": {
@@ -136,11 +136,11 @@
 				{"source": "ToadNPCLL.png",
 				"rect": [192, 64, 32, 32]},
 				{"source": "ToadNPCLL.png",
-				"rect": [214, 0, 32, 32]},
+				"rect": [224, 0, 32, 32]},
 				{"source": "ToadNPCLL.png",
-				"rect": [214, 32, 32, 32]},
+				"rect": [224, 32, 32, 32]},
 				{"source": "ToadNPCLL.png",
-				"rect": [246, 32, 32, 32]},
+				"rect": [256, 32, 32, 32]},
 			]
 		},
 		"SMBS": {
@@ -196,11 +196,11 @@
 				{"source": "ToadNPCSP.png",
 				"rect": [192, 64, 32, 32]},
 				{"source": "ToadNPCSP.png",
-				"rect": [214, 0, 32, 32]},
+				"rect": [224, 0, 32, 32]},
 				{"source": "ToadNPCSP.png",
-				"rect": [214, 32, 32, 32]},
+				"rect": [224, 32, 32, 32]},
 				{"source": "ToadNPCSP.png",
-				"rect": [246, 32, 32, 32]},
+				"rect": [256, 32, 32, 32]},
 			]
 		},
 		"SMBANN": {
@@ -256,11 +256,11 @@
 				{"source": "ToadNPC.png",
 				"rect": [192, 64, 32, 32]},
 				{"source": "ToadNPC.png",
-				"rect": [214, 0, 32, 32]},
+				"rect": [224, 0, 32, 32]},
 				{"source": "ToadNPC.png",
-				"rect": [214, 32, 32, 32]},
+				"rect": [224, 32, 32, 32]},
 				{"source": "ToadNPC.png",
-				"rect": [246, 32, 32, 32]},
+				"rect": [256, 32, 32, 32]},
 			]
 		}
 	}
