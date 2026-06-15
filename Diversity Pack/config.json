@@ -1,7 +1,8 @@
 {
 	"options": {
-		"Diversed Bricks": "Various Patterns",
-		"Recolored 1-up Mushrooms": "Off (1-up Hearts)"
+		"Diversed Bricks": "Various Designs",
+		"Recolored 1-up Mushrooms": "Off (1-up Hearts)",
+		"Red Enemies": "Recolored"
 	},
 	"value_keys": {
 		"Diversed Bricks": [
@@ -11,6 +12,10 @@
 		"Recolored 1-up Mushrooms": [
 			"Off (1-up Hearts)",
 			"On"
+		],
+		"Red Enemies": [
+			"Unique",
+			"Recolored"
 		]
 	}
 }
