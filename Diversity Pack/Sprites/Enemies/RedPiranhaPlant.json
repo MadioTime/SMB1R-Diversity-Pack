@@ -20,25 +20,51 @@
 		}
 	},
 	"variations": {
-		"default": {
-			"choices": [
-				{"source": "RedPiranhaPlant.png",
-				"rect": [0, 0, 32, 24]},
-				{"source": "RedPiranhaPlant.png",
-				"rect": [32, 0, 32, 24]},
-				{"source": "RedPiranhaPlant.png",
-				"rect": [64, 0, 48, 24]},
-				{"source": "RedPiranhaPlant.png",
-				"rect": [96, 0, 48, 24]},
-				{"source": "RedPiranhaPlant.png",
-				"rect": [128, 0, 48, 24]},
-				{"source": "RedPiranhaPlant.png",
-				"rect": [160, 0, 48, 24]},
-				{"source": "RedPiranhaPlant.png",
-				"rect": [192, 0, 48, 24]},
-				{"source": "RedPiranhaPlant.png",
-				"rect": [224, 0, 48, 24]}
-				]
+		"config:Red Enemies": {
+			"Unique": {
+				"default": {
+				"choices": [
+					{"source": "RedPiranhaPlant.png",
+					"rect": [0, 0, 32, 24]},
+					{"source": "RedPiranhaPlant.png",
+					"rect": [32, 0, 32, 24]},
+					{"source": "RedPiranhaPlant.png",
+					"rect": [64, 0, 48, 24]},
+					{"source": "RedPiranhaPlant.png",
+					"rect": [96, 0, 48, 24]},
+					{"source": "RedPiranhaPlant.png",
+					"rect": [128, 0, 48, 24]},
+					{"source": "RedPiranhaPlant.png",
+					"rect": [160, 0, 48, 24]},
+					{"source": "RedPiranhaPlant.png",
+					"rect": [192, 0, 48, 24]},
+					{"source": "RedPiranhaPlant.png",
+					"rect": [224, 0, 48, 24]}
+					]
+				}
+			},
+			"Recolored": {
+			"default": {
+				"choices": [
+					{"source": "RedPiranhaPlantREC.png",
+					"rect": [0, 0, 32, 24]},
+					{"source": "RedPiranhaPlantREC.png",
+					"rect": [32, 0, 32, 24]},
+					{"source": "RedPiranhaPlantREC.png",
+					"rect": [64, 0, 48, 24]},
+					{"source": "RedPiranhaPlantREC.png",
+					"rect": [96, 0, 48, 24]},
+					{"source": "RedPiranhaPlantREC.png",
+					"rect": [128, 0, 48, 24]},
+					{"source": "RedPiranhaPlantREC.png",
+					"rect": [160, 0, 48, 24]},
+					{"source": "RedPiranhaPlantREC.png",
+					"rect": [192, 0, 48, 24]},
+					{"source": "RedPiranhaPlantREC.png",
+					"rect": [224, 0, 48, 24]}
+					]
+				}
+			}
 		}
 	}
 }

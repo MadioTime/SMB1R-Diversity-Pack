@@ -20,45 +20,91 @@
 		}
 	},
 	"variations": {
-		"default": {
-			"choices": [
-				{"source": "KoopaTroopa.png",
-				"rect": [0, 224, 32, 32]},
-				{"source": "KoopaTroopa.png",
-				"rect": [96, 224, 32, 32]},
-				{"source": "KoopaTroopa.png",
-				"rect": [192, 224, 32, 32]},
-				{"source": "KoopaTroopa.png",
-				"rect": [288, 224, 32, 32]},
-				{"source": "KoopaTroopa.png",
-				"rect": [384, 224, 32, 32]},
-				{"source": "KoopaTroopa.png",
-				"rect": [480, 224, 32, 32]},
-				{"source": "KoopaTroopa.png",
-				"rect": [576, 224, 32, 32]},
-				{"source": "KoopaTroopa.png",
-				"rect": [672, 224, 32, 32]}
-				]
-		},
-		"Snow": {
-			"choices": [
-				{"source": "KoopaTroopa.png",
-				"rect": [0, 256, 32, 32]},
-				{"source": "KoopaTroopa.png",
-				"rect": [96, 256, 32, 32]},
-				{"source": "KoopaTroopa.png",
-				"rect": [192, 256, 32, 32]},
-				{"source": "KoopaTroopa.png",
-				"rect": [288, 256, 32, 32]},
-				{"source": "KoopaTroopa.png",
-				"rect": [384, 256, 32, 32]},
-				{"source": "KoopaTroopa.png",
-				"rect": [480, 256, 32, 32]},
-				{"source": "KoopaTroopa.png",
-				"rect": [576, 256, 32, 32]},
-				{"source": "KoopaTroopa.png",
-				"rect": [672, 256, 32, 32]}
-				]
+		"config:Red Enemies": {
+			"Unique": {
+			"default": {
+				"choices": [
+					{"source": "KoopaTroopa.png",
+					"rect": [0, 224, 32, 32]},
+					{"source": "KoopaTroopa.png",
+					"rect": [96, 224, 32, 32]},
+					{"source": "KoopaTroopa.png",
+					"rect": [192, 224, 32, 32]},
+					{"source": "KoopaTroopa.png",
+					"rect": [288, 224, 32, 32]},
+					{"source": "KoopaTroopa.png",
+					"rect": [384, 224, 32, 32]},
+					{"source": "KoopaTroopa.png",
+					"rect": [480, 224, 32, 32]},
+					{"source": "KoopaTroopa.png",
+					"rect": [576, 224, 32, 32]},
+					{"source": "KoopaTroopa.png",
+					"rect": [672, 224, 32, 32]}
+					]
+			},
+			"Snow": {
+				"choices": [
+					{"source": "KoopaTroopa.png",
+					"rect": [0, 256, 32, 32]},
+					{"source": "KoopaTroopa.png",
+					"rect": [96, 256, 32, 32]},
+					{"source": "KoopaTroopa.png",
+					"rect": [192, 256, 32, 32]},
+					{"source": "KoopaTroopa.png",
+					"rect": [288, 256, 32, 32]},
+					{"source": "KoopaTroopa.png",
+					"rect": [384, 256, 32, 32]},
+					{"source": "KoopaTroopa.png",
+					"rect": [480, 256, 32, 32]},
+					{"source": "KoopaTroopa.png",
+					"rect": [576, 256, 32, 32]},
+					{"source": "KoopaTroopa.png",
+					"rect": [672, 256, 32, 32]}
+					]
+				}
+			},
+			"Recolored": {
+			"default": {
+				"choices": [
+					{"source": "KoopaTroopaREC.png",
+					"rect": [0, 224, 32, 32]},
+					{"source": "KoopaTroopaREC.png",
+					"rect": [96, 224, 32, 32]},
+					{"source": "KoopaTroopaREC.png",
+					"rect": [192, 224, 32, 32]},
+					{"source": "KoopaTroopaREC.png",
+					"rect": [288, 224, 32, 32]},
+					{"source": "KoopaTroopaREC.png",
+					"rect": [384, 224, 32, 32]},
+					{"source": "KoopaTroopaREC.png",
+					"rect": [480, 224, 32, 32]},
+					{"source": "KoopaTroopaREC.png",
+					"rect": [576, 224, 32, 32]},
+					{"source": "KoopaTroopaREC.png",
+					"rect": [672, 224, 32, 32]}
+					]
+				},
+			"Snow": {
+				"choices": [
+					{"source": "KoopaTroopaREC.png",
+					"rect": [0, 256, 32, 32]},
+					{"source": "KoopaTroopaREC.png",
+					"rect": [96, 256, 32, 32]},
+					{"source": "KoopaTroopaREC.png",
+					"rect": [192, 256, 32, 32]},
+					{"source": "KoopaTroopaREC.png",
+					"rect": [288, 256, 32, 32]},
+					{"source": "KoopaTroopaREC.png",
+					"rect": [384, 256, 32, 32]},
+					{"source": "KoopaTroopaREC.png",
+					"rect": [480, 256, 32, 32]},
+					{"source": "KoopaTroopaREC.png",
+					"rect": [576, 256, 32, 32]},
+					{"source": "KoopaTroopaREC.png",
+					"rect": [672, 256, 32, 32]}
+					]
+				}
+			}
 		}
 	}
 }

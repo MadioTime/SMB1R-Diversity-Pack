@@ -10,31 +10,63 @@
 		}
 	},
 	"variations": {
-		"choices": [
-			{
-				"source": "CheepCheep.png",
-				"rect": [0, 112, 32, 16]
+		"config:Red Enemies": {
+				"Unique": {
+					"choices": [
+					{
+						"source": "CheepCheep.png",
+						"rect": [0, 112, 32, 16]
+					},
+					{
+						"source": "CheepCheep.png",
+						"rect": [32, 112, 32, 16]
+					},
+					{
+						"source": "CheepCheep.png",
+						"rect": [64, 112, 32, 16]
+					},
+					{
+						"source": "CheepCheep.png",
+						"rect": [96, 112, 32, 16]
+					},
+					{
+						"source": "CheepCheep.png",
+						"rect": [128, 112, 32, 16]
+					},
+					{
+						"source": "CheepCheep.png",
+						"rect": [160, 112, 32, 16]
+					}
+				]
 			},
-			{
-				"source": "CheepCheep.png",
-				"rect": [32, 112, 32, 16]
-			},
-			{
-				"source": "CheepCheep.png",
-				"rect": [64, 112, 32, 16]
-			},
-			{
-				"source": "CheepCheep.png",
-				"rect": [96, 112, 32, 16]
-			},
-			{
-				"source": "CheepCheep.png",
-				"rect": [128, 112, 32, 16]
-			},
-			{
-				"source": "CheepCheep.png",
-				"rect": [160, 112, 32, 16]
+				"Recolored": {
+					"choices": [
+					{
+						"source": "CheepCheepREC.png",
+						"rect": [0, 112, 32, 16]
+					},
+					{
+						"source": "CheepCheepREC.png",
+						"rect": [32, 112, 32, 16]
+					},
+					{
+						"source": "CheepCheepREC.png",
+						"rect": [64, 112, 32, 16]
+					},
+					{
+						"source": "CheepCheepREC.png",
+						"rect": [96, 112, 32, 16]
+					},
+					{
+						"source": "CheepCheepREC.png",
+						"rect": [128, 112, 32, 16]
+					},
+					{
+						"source": "CheepCheepREC.png",
+						"rect": [160, 112, 32, 16]
+					}
+				]
 			}
-		]
+		}
 	}
 }
