@@ -1,0 +1,707 @@
+{
+	"animations": {
+		"default": {
+			"frames": [
+				[0, 0, 16, 16],
+				[16, 0, 16, 16],
+				[32, 0, 16, 16],
+				[48, 0, 16, 16]
+			],
+			"speed": 15,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"choices": [
+				{
+					"source": "Barrel.png",
+					"rect": [0, 0, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [0, 0, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [0, 0, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 0, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 0, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 0, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 0, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 0, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 0, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 0, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 0, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 0, 64, 16]
+				},
+				{"source": "RareBarrel.png"}
+			]
+		},
+		"Underground": {
+			"choices": [
+				{
+					"source": "Barrel.png",
+					"rect": [0, 16, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [0, 16, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [0, 16, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 16, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 16, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 16, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 16, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 16, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 16, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 16, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 16, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 16, 64, 16]
+				},
+				{"source": "RareBarrel.png"}
+			]
+		},
+		"GhostHouse": {"link": "Underground"},
+		"Castle": {
+			"choices": [
+				{
+					"source": "Barrel.png",
+					"rect": [0, 32, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [0, 32, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [0, 32, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 32, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 32, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 32, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 32, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 32, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 32, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 32, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 32, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 32, 64, 16]
+				},
+				{"source": "RareBarrel.png"}
+			]
+		},
+		"Underwater": {
+			"choices": [
+				{
+					"source": "Barrel.png",
+					"rect": [0, 48, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [0, 48, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [0, 48, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 48, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 48, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 48, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 48, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 48, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 48, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 48, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 48, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 48, 64, 16]
+				},
+				{"source": "RareBarrel.png"}
+			]
+		},
+		"CastleWater": {"link": "Underwater"},
+		"Desert": {
+			"choices": [
+				{
+					"source": "Barrel.png",
+					"rect": [0, 64, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [0, 64, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [0, 64, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 64, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 64, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 64, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 64, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 64, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 64, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 64, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 64, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 64, 64, 16]
+				},
+				{"source": "RareBarrel.png"}
+			]
+		},
+		"Jungle": {
+			"choices": [
+				{
+					"source": "Barrel.png",
+					"rect": [0, 80, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [0, 80, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [0, 80, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 80, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 80, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 80, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 80, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 80, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 80, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 80, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 80, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 80, 64, 16]
+				},
+				{"source": "RareBarrel.png"}
+			]
+		},
+		"Snow": {
+			"choices": [
+				{
+					"source": "Barrel.png",
+					"rect": [0, 96, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [0, 96, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [0, 96, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 96, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 96, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 96, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 96, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 96, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 96, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 96, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 96, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 96, 64, 16]
+				},
+				{"source": "RareBarrel.png"}
+			]
+		},
+		"Volcano": {
+			"choices": [
+				{
+					"source": "Barrel.png",
+					"rect": [0, 112, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [0, 112, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [0, 112, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 112, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 112, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 112, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 112, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 112, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 112, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 112, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 112, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 112, 64, 16]
+				},
+				{"source": "RareBarrel.png"}
+			]
+		},
+		"Autumn": {
+			"choices": [
+				{
+					"source": "Barrel.png",
+					"rect": [0, 128, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [0, 128, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [0, 128, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 128, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 128, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 128, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 128, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 128, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 128, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 128, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 128, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 128, 64, 16]
+				},
+				{"source": "RareBarrel.png"}
+			]
+		},
+		"Beach": {
+			"choices": [
+				{
+					"source": "Barrel.png",
+					"rect": [0, 144, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [0, 144, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [0, 144, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 144, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 144, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 144, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 144, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 144, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 144, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 144, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 144, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 144, 64, 16]
+				},
+				{"source": "RareBarrel.png"}
+			]
+		},
+		"Mountain": {
+			"choices": [
+				{
+					"source": "Barrel.png",
+					"rect": [0, 160, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [0, 160, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [0, 160, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 160, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 160, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 160, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 160, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 160, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 160, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 160, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 160, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 160, 64, 16]
+				},
+				{"source": "RareBarrel.png"}
+			]
+		},
+		"Space": {
+			"choices": [
+				{
+					"source": "Barrel.png",
+					"rect": [0, 176, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [0, 176, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [0, 176, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 176, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 176, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 176, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 176, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 176, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 176, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 176, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 176, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 176, 64, 16]
+				},
+				{"source": "RareBarrel.png"}
+			]
+		},
+		"Bonus": {
+			"choices": [
+				{
+					"source": "Barrel.png",
+					"rect": [0, 192, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [0, 192, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [0, 192, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 192, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 192, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [64, 192, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 192, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 192, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [128, 192, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 192, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 192, 64, 16]
+				},
+				{
+					"source": "Barrel.png",
+					"rect": [192, 192, 64, 16]
+				},
+				{"source": "RareBarrel.png"}
+			]
+		}
+	}
+}
