@@ -1,0 +1,39 @@
+{
+	"animations": {
+		"default": {
+			"frames": [[0, 0, 16, 16]],
+			"speed": 1.0,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"choices": [
+			{
+				"source": "Wing.png",
+				"rect": [0, 0, 16, 16]
+			},
+			{
+				"source": "Wing.png",
+				"rect": [16, 0, 16, 16]
+			},
+			{
+				"source": "Wing.png",
+				"rect": [32, 0, 16, 16]
+			},
+			{
+				"source": "Wing.png",
+				"rect": [48, 0, 16, 16]
+			},
+			{
+				"source": "Wing.png",
+				"rect": [64, 0, 16, 16]
+			},
+			{
+				"source": "Wing.png",
+				"rect": [80, 0, 16, 16]
+			}
+			]
+		}
+	}
+}
