@@ -1,7 +1,7 @@
 {
 	"variations": {
-		"config:Recolored 1-up Mushrooms": {
-			"On": {
+		"config:1-up Mushrooms": {
+			"Recolored": {
 				"choices": [
 					{
 						"source": "1UP.png",
@@ -73,7 +73,7 @@
 					}
 				]
 			},
-			"Off (1-up Hearts)": {
+			"Hearts": {
 				"choices": [
 					{
 						"source": "1UP.png",
