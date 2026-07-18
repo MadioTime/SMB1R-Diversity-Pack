@@ -1,0 +1,58 @@
+{
+	"animations": {
+		"Idle": {
+			"frames": [
+				[0, 0, 48, 48],
+				[48, 0, 48, 48]
+			],
+			"speed": 8,
+			"loop": true
+		},
+		"FireCharge": {
+			"frames": [
+				[0, 48, 48, 48],
+				[48, 48, 48, 48]
+			],
+			"speed": 10,
+			"loop": true
+		},
+		"FireBreathe": {
+			"frames": [
+				[0, 0, 48, 48],
+				[48, 0, 48, 48]
+			],
+			"speed": 10,
+			"loop": true
+		},
+		"Fall": {
+			"frames": [
+				[0, 0, 48, 48],
+				[0, 48, 48, 48]
+			],
+			"speed": 15,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": { 
+			"choices": [
+				{"source": "Bowser.png",
+				"rect": [0, 0, 96, 96]},
+				{"source": "Bowser.png",
+				"rect": [96, 0, 96, 96]},
+				{"source": "Bowser.png",
+				"rect": [192, 0, 96, 96]},
+				{"source": "Bowser.png",
+				"rect": [288, 0, 96, 96]},
+				{"source": "Bowser.png",
+				"rect": [384, 0, 96, 96]},
+				{"source": "Bowser.png",
+				"rect": [480, 0, 96, 96]},
+				{"source": "Bowser.png",
+				"rect": [576, 0, 96, 96]},
+				{"source": "Bowser.png",
+				"rect": [672, 0, 96, 96]}
+			]
+		}
+	}
+}
