@@ -75,6 +75,50 @@
 			{
 				"source": "SuperMushroom.png",
 				"rect": [256, 0, 16, 16]
+			},
+			{
+				"source": "SuperMushroom.png",
+				"rect": [272, 0, 16, 16]
+			},
+			{
+				"source": "SuperMushroom.png",
+				"rect": [288, 0, 16, 16]
+			},
+			{
+				"source": "SuperMushroom.png",
+				"rect": [304, 0, 16, 16]
+			},
+			{
+				"source": "SuperMushroom.png",
+				"rect": [320, 0, 16, 16]
+			},
+			{
+				"source": "SuperMushroom.png",
+				"rect": [336, 0, 16, 16]
+			},
+			{
+				"source": "SuperMushroom.png",
+				"rect": [352, 0, 16, 16]
+			},
+			{
+				"source": "SuperMushroom.png",
+				"rect": [368, 0, 16, 16]
+			},
+			{
+				"source": "SuperMushroom.png",
+				"rect": [384, 0, 16, 16]
+			},
+			{
+				"source": "SuperMushroom.png",
+				"rect": [400, 0, 16, 16]
+			},
+			{
+				"source": "SuperMushroom.png",
+				"rect": [416, 0, 16, 16]
+			},
+			{
+				"source": "SuperMushroom.png",
+				"rect": [432, 0, 16, 16]
 			}
 		]
 	}
