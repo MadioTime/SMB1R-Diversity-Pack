@@ -70,6 +70,278 @@
 					{
 						"source": "1UP.png",
 						"rect": [256, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [272, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [288, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [304, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [320, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [336, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [352, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [368, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [384, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [400, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [416, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [432, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [0, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [16, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [32, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [48, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [64, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [80, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [96, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [112, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [128, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [144, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [160, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [176, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [192, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [208, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [224, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [240, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [256, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [272, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [288, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [304, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [320, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [336, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [352, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [368, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [384, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [400, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [416, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [432, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [0, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [16, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [32, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [48, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [64, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [80, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [96, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [112, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [128, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [144, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [160, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [176, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [192, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [208, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [224, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [240, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [256, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [272, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [288, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [304, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [320, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [336, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [352, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [368, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [384, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [400, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [416, 16, 16, 16]
+					},
+					{
+						"source": "1UP.png",
+						"rect": [432, 16, 16, 16]
+					},
+					{
+						"source": "RareMushrooms.png",
+						"rect": [16, 0, 16, 16]
 					}
 				]
 			},
