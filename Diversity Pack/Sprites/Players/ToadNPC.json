@@ -2,7 +2,7 @@
 	"animations": {
 		"Idle": {
 			"frames": [[0, 0, 16, 32]],
-			"speed": 5.0,
+			"speed": 5,
 			"loop": true
 		},
 		"Await": {
@@ -10,7 +10,7 @@
 				[0, 0, 16, 32],
 				[16, 0, 16, 32]
 			],
-			"speed": 5.0,
+			"speed": 5,
 			"loop": true
 		},
 		"Talk": {
@@ -18,249 +18,649 @@
 				[0, 0, 16, 32],
 				[16, 0, 16, 32]
 			],
-			"speed": 5.0,
+			"speed": 5,
 			"loop": true
 		}
 	},
 	"variations": {
 		"SMB1": {
 			"choices": [
-				{"source": "ToadNPC.png",
-				"rect": [0, 0, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [0, 32, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [0, 64, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [0, 96, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [32, 0, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [32, 32, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [32, 64, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [32, 96, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [64, 0, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [64, 32, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [64, 64, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [64, 96, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [96, 0, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [96, 32, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [96, 64, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [96, 96, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [128, 0, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [128, 32, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [128, 64, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [160, 0, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [160, 32, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [160, 64, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [192, 0, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [192, 32, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [192, 64, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [224, 0, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [224, 32, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [256, 32, 32, 32]},
+				{
+					"source": "ToadNPC.png",
+					"rect": [0, 0, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [0, 32, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [0, 64, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [0, 96, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [32, 0, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [32, 32, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [32, 64, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [32, 96, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [64, 0, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [64, 32, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [64, 64, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [64, 96, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [96, 0, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [96, 32, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [96, 64, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [96, 96, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [128, 0, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [128, 32, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [128, 64, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [160, 0, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [160, 32, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [160, 64, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [192, 0, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [192, 32, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [192, 64, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [224, 0, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [224, 32, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [256, 32, 32, 32]
+				},
+				{
+					"source": "KingerAndQueenie.png",
+					"rect": [0, 0, 32, 32],
+					"animations": {
+						"Await": {
+							"frames": [
+								[0, 0, 16, 32],
+								[16, 0, 16, 32]
+							],
+							"speed": 1,
+							"loop": true
+						},
+						"Talk": {
+							"frames": [
+								[0, 0, 16, 32],
+								[16, 0, 16, 32]
+							],
+							"speed": 2,
+							"loop": true
+						}
+					}
+				},
+				{
+					"source": "KingerAndQueenie.png",
+					"rect": [32, 0, 32, 32],
+					"animations": {
+						"Await": {
+							"frames": [
+								[0, 0, 16, 32],
+								[16, 0, 16, 32]
+							],
+							"speed": 1,
+							"loop": true
+						},
+						"Talk": {
+							"frames": [
+								[0, 0, 16, 32],
+								[16, 0, 16, 32]
+							],
+							"speed": 2,
+							"loop": true
+						}
+					}
+				}
 			]
 		},
 		"SMBLL": {
 			"choices": [
-				{"source": "ToadNPCLL.png",
-				"rect": [0, 0, 32, 32]},
-				{"source": "ToadNPCLL.png",
-				"rect": [0, 32, 32, 32]},
-				{"source": "ToadNPCLL.png",
-				"rect": [0, 64, 32, 32]},
-				{"source": "ToadNPCLL.png",
-				"rect": [0, 96, 32, 32]},
-				{"source": "ToadNPCLL.png",
-				"rect": [32, 0, 32, 32]},
-				{"source": "ToadNPCLL.png",
-				"rect": [32, 32, 32, 32]},
-				{"source": "ToadNPCLL.png",
-				"rect": [32, 64, 32, 32]},
-				{"source": "ToadNPCLL.png",
-				"rect": [32, 96, 32, 32]},
-				{"source": "ToadNPCLL.png",
-				"rect": [64, 0, 32, 32]},
-				{"source": "ToadNPCLL.png",
-				"rect": [64, 32, 32, 32]},
-				{"source": "ToadNPCLL.png",
-				"rect": [64, 64, 32, 32]},
-				{"source": "ToadNPCLL.png",
-				"rect": [64, 96, 32, 32]},
-				{"source": "ToadNPCLL.png",
-				"rect": [96, 0, 32, 32]},
-				{"source": "ToadNPCLL.png",
-				"rect": [96, 32, 32, 32]},
-				{"source": "ToadNPCLL.png",
-				"rect": [96, 64, 32, 32]},
-				{"source": "ToadNPCLL.png",
-				"rect": [96, 96, 32, 32]},
-				{"source": "ToadNPCLL.png",
-				"rect": [128, 0, 32, 32]},
-				{"source": "ToadNPCLL.png",
-				"rect": [128, 32, 32, 32]},
-				{"source": "ToadNPCLL.png",
-				"rect": [128, 64, 32, 32]},
-				{"source": "ToadNPCLL.png",
-				"rect": [160, 0, 32, 32]},
-				{"source": "ToadNPCLL.png",
-				"rect": [160, 32, 32, 32]},
-				{"source": "ToadNPCLL.png",
-				"rect": [160, 64, 32, 32]},
-				{"source": "ToadNPCLL.png",
-				"rect": [192, 0, 32, 32]},
-				{"source": "ToadNPCLL.png",
-				"rect": [192, 32, 32, 32]},
-				{"source": "ToadNPCLL.png",
-				"rect": [192, 64, 32, 32]},
-				{"source": "ToadNPCLL.png",
-				"rect": [224, 0, 32, 32]},
-				{"source": "ToadNPCLL.png",
-				"rect": [224, 32, 32, 32]},
-				{"source": "ToadNPCLL.png",
-				"rect": [256, 32, 32, 32]},
+				{
+					"source": "ToadNPCLL.png",
+					"rect": [0, 0, 32, 32]
+				},
+				{
+					"source": "ToadNPCLL.png",
+					"rect": [0, 32, 32, 32]
+				},
+				{
+					"source": "ToadNPCLL.png",
+					"rect": [0, 64, 32, 32]
+				},
+				{
+					"source": "ToadNPCLL.png",
+					"rect": [0, 96, 32, 32]
+				},
+				{
+					"source": "ToadNPCLL.png",
+					"rect": [32, 0, 32, 32]
+				},
+				{
+					"source": "ToadNPCLL.png",
+					"rect": [32, 32, 32, 32]
+				},
+				{
+					"source": "ToadNPCLL.png",
+					"rect": [32, 64, 32, 32]
+				},
+				{
+					"source": "ToadNPCLL.png",
+					"rect": [32, 96, 32, 32]
+				},
+				{
+					"source": "ToadNPCLL.png",
+					"rect": [64, 0, 32, 32]
+				},
+				{
+					"source": "ToadNPCLL.png",
+					"rect": [64, 32, 32, 32]
+				},
+				{
+					"source": "ToadNPCLL.png",
+					"rect": [64, 64, 32, 32]
+				},
+				{
+					"source": "ToadNPCLL.png",
+					"rect": [64, 96, 32, 32]
+				},
+				{
+					"source": "ToadNPCLL.png",
+					"rect": [96, 0, 32, 32]
+				},
+				{
+					"source": "ToadNPCLL.png",
+					"rect": [96, 32, 32, 32]
+				},
+				{
+					"source": "ToadNPCLL.png",
+					"rect": [96, 64, 32, 32]
+				},
+				{
+					"source": "ToadNPCLL.png",
+					"rect": [96, 96, 32, 32]
+				},
+				{
+					"source": "ToadNPCLL.png",
+					"rect": [128, 0, 32, 32]
+				},
+				{
+					"source": "ToadNPCLL.png",
+					"rect": [128, 32, 32, 32]
+				},
+				{
+					"source": "ToadNPCLL.png",
+					"rect": [128, 64, 32, 32]
+				},
+				{
+					"source": "ToadNPCLL.png",
+					"rect": [160, 0, 32, 32]
+				},
+				{
+					"source": "ToadNPCLL.png",
+					"rect": [160, 32, 32, 32]
+				},
+				{
+					"source": "ToadNPCLL.png",
+					"rect": [160, 64, 32, 32]
+				},
+				{
+					"source": "ToadNPCLL.png",
+					"rect": [192, 0, 32, 32]
+				},
+				{
+					"source": "ToadNPCLL.png",
+					"rect": [192, 32, 32, 32]
+				},
+				{
+					"source": "ToadNPCLL.png",
+					"rect": [192, 64, 32, 32]
+				},
+				{
+					"source": "ToadNPCLL.png",
+					"rect": [224, 0, 32, 32]
+				},
+				{
+					"source": "ToadNPCLL.png",
+					"rect": [224, 32, 32, 32]
+				},
+				{
+					"source": "ToadNPCLL.png",
+					"rect": [256, 32, 32, 32]
+				},
+				{
+					"source": "KingerAndQueenie.png",
+					"rect": [0, 0, 32, 32],
+					"animations": {
+						"Await": {
+							"frames": [
+								[0, 0, 16, 32],
+								[16, 0, 16, 32]
+							],
+							"speed": 1,
+							"loop": true
+						},
+						"Talk": {
+							"frames": [
+								[0, 0, 16, 32],
+								[16, 0, 16, 32]
+							],
+							"speed": 2,
+							"loop": true
+						}
+					}
+				},
+				{
+					"source": "KingerAndQueenie.png",
+					"rect": [32, 0, 32, 32],
+					"animations": {
+						"Await": {
+							"frames": [
+								[0, 0, 16, 32],
+								[16, 0, 16, 32]
+							],
+							"speed": 1,
+							"loop": true
+						},
+						"Talk": {
+							"frames": [
+								[0, 0, 16, 32],
+								[16, 0, 16, 32]
+							],
+							"speed": 2,
+							"loop": true
+						}
+					}
+				}
 			]
 		},
 		"SMBS": {
 			"choices": [
-				{"source": "ToadNPCSP.png",
-				"rect": [0, 0, 32, 32]},
-				{"source": "ToadNPCSP.png",
-				"rect": [0, 32, 32, 32]},
-				{"source": "ToadNPCSP.png",
-				"rect": [0, 64, 32, 32]},
-				{"source": "ToadNPCSP.png",
-				"rect": [0, 96, 32, 32]},
-				{"source": "ToadNPCSP.png",
-				"rect": [32, 0, 32, 32]},
-				{"source": "ToadNPCSP.png",
-				"rect": [32, 32, 32, 32]},
-				{"source": "ToadNPCSP.png",
-				"rect": [32, 64, 32, 32]},
-				{"source": "ToadNPCSP.png",
-				"rect": [32, 96, 32, 32]},
-				{"source": "ToadNPCSP.png",
-				"rect": [64, 0, 32, 32]},
-				{"source": "ToadNPCSP.png",
-				"rect": [64, 32, 32, 32]},
-				{"source": "ToadNPCSP.png",
-				"rect": [64, 64, 32, 32]},
-				{"source": "ToadNPCSP.png",
-				"rect": [64, 96, 32, 32]},
-				{"source": "ToadNPCSP.png",
-				"rect": [96, 0, 32, 32]},
-				{"source": "ToadNPCSP.png",
-				"rect": [96, 32, 32, 32]},
-				{"source": "ToadNPCSP.png",
-				"rect": [96, 64, 32, 32]},
-				{"source": "ToadNPCSP.png",
-				"rect": [96, 96, 32, 32]},
-				{"source": "ToadNPCSP.png",
-				"rect": [128, 0, 32, 32]},
-				{"source": "ToadNPCSP.png",
-				"rect": [128, 32, 32, 32]},
-				{"source": "ToadNPCSP.png",
-				"rect": [128, 64, 32, 32]},
-				{"source": "ToadNPCSP.png",
-				"rect": [160, 0, 32, 32]},
-				{"source": "ToadNPCSP.png",
-				"rect": [160, 32, 32, 32]},
-				{"source": "ToadNPCSP.png",
-				"rect": [160, 64, 32, 32]},
-				{"source": "ToadNPCSP.png",
-				"rect": [192, 0, 32, 32]},
-				{"source": "ToadNPCSP.png",
-				"rect": [192, 32, 32, 32]},
-				{"source": "ToadNPCSP.png",
-				"rect": [192, 64, 32, 32]},
-				{"source": "ToadNPCSP.png",
-				"rect": [224, 0, 32, 32]},
-				{"source": "ToadNPCSP.png",
-				"rect": [224, 32, 32, 32]},
-				{"source": "ToadNPCSP.png",
-				"rect": [256, 32, 32, 32]},
+				{
+					"source": "ToadNPCSP.png",
+					"rect": [0, 0, 32, 32]
+				},
+				{
+					"source": "ToadNPCSP.png",
+					"rect": [0, 32, 32, 32]
+				},
+				{
+					"source": "ToadNPCSP.png",
+					"rect": [0, 64, 32, 32]
+				},
+				{
+					"source": "ToadNPCSP.png",
+					"rect": [0, 96, 32, 32]
+				},
+				{
+					"source": "ToadNPCSP.png",
+					"rect": [32, 0, 32, 32]
+				},
+				{
+					"source": "ToadNPCSP.png",
+					"rect": [32, 32, 32, 32]
+				},
+				{
+					"source": "ToadNPCSP.png",
+					"rect": [32, 64, 32, 32]
+				},
+				{
+					"source": "ToadNPCSP.png",
+					"rect": [32, 96, 32, 32]
+				},
+				{
+					"source": "ToadNPCSP.png",
+					"rect": [64, 0, 32, 32]
+				},
+				{
+					"source": "ToadNPCSP.png",
+					"rect": [64, 32, 32, 32]
+				},
+				{
+					"source": "ToadNPCSP.png",
+					"rect": [64, 64, 32, 32]
+				},
+				{
+					"source": "ToadNPCSP.png",
+					"rect": [64, 96, 32, 32]
+				},
+				{
+					"source": "ToadNPCSP.png",
+					"rect": [96, 0, 32, 32]
+				},
+				{
+					"source": "ToadNPCSP.png",
+					"rect": [96, 32, 32, 32]
+				},
+				{
+					"source": "ToadNPCSP.png",
+					"rect": [96, 64, 32, 32]
+				},
+				{
+					"source": "ToadNPCSP.png",
+					"rect": [96, 96, 32, 32]
+				},
+				{
+					"source": "ToadNPCSP.png",
+					"rect": [128, 0, 32, 32]
+				},
+				{
+					"source": "ToadNPCSP.png",
+					"rect": [128, 32, 32, 32]
+				},
+				{
+					"source": "ToadNPCSP.png",
+					"rect": [128, 64, 32, 32]
+				},
+				{
+					"source": "ToadNPCSP.png",
+					"rect": [160, 0, 32, 32]
+				},
+				{
+					"source": "ToadNPCSP.png",
+					"rect": [160, 32, 32, 32]
+				},
+				{
+					"source": "ToadNPCSP.png",
+					"rect": [160, 64, 32, 32]
+				},
+				{
+					"source": "ToadNPCSP.png",
+					"rect": [192, 0, 32, 32]
+				},
+				{
+					"source": "ToadNPCSP.png",
+					"rect": [192, 32, 32, 32]
+				},
+				{
+					"source": "ToadNPCSP.png",
+					"rect": [192, 64, 32, 32]
+				},
+				{
+					"source": "ToadNPCSP.png",
+					"rect": [224, 0, 32, 32]
+				},
+				{
+					"source": "ToadNPCSP.png",
+					"rect": [224, 32, 32, 32]
+				},
+				{
+					"source": "ToadNPCSP.png",
+					"rect": [256, 32, 32, 32]
+				},
+				{
+					"source": "KingerAndQueenie.png",
+					"rect": [0, 0, 32, 32],
+					"animations": {
+						"Await": {
+							"frames": [
+								[0, 0, 16, 32],
+								[16, 0, 16, 32]
+							],
+							"speed": 1,
+							"loop": true
+						},
+						"Talk": {
+							"frames": [
+								[0, 0, 16, 32],
+								[16, 0, 16, 32]
+							],
+							"speed": 2,
+							"loop": true
+						}
+					}
+				},
+				{
+					"source": "KingerAndQueenie.png",
+					"rect": [32, 0, 32, 32],
+					"animations": {
+						"Await": {
+							"frames": [
+								[0, 0, 16, 32],
+								[16, 0, 16, 32]
+							],
+							"speed": 1,
+							"loop": true
+						},
+						"Talk": {
+							"frames": [
+								[0, 0, 16, 32],
+								[16, 0, 16, 32]
+							],
+							"speed": 2,
+							"loop": true
+						}
+					}
+				}
 			]
 		},
 		"SMBANN": {
 			"choices": [
-				{"source": "ToadNPC.png",
-				"rect": [0, 0, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [0, 32, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [0, 64, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [0, 96, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [32, 0, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [32, 32, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [32, 64, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [32, 96, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [64, 0, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [64, 32, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [64, 64, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [64, 96, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [96, 0, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [96, 32, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [96, 64, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [96, 96, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [128, 0, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [128, 32, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [128, 64, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [160, 0, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [160, 32, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [160, 64, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [192, 0, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [192, 32, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [192, 64, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [224, 0, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [224, 32, 32, 32]},
-				{"source": "ToadNPC.png",
-				"rect": [256, 32, 32, 32]},
+				{
+					"source": "ToadNPC.png",
+					"rect": [0, 0, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [0, 32, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [0, 64, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [0, 96, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [32, 0, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [32, 32, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [32, 64, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [32, 96, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [64, 0, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [64, 32, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [64, 64, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [64, 96, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [96, 0, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [96, 32, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [96, 64, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [96, 96, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [128, 0, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [128, 32, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [128, 64, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [160, 0, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [160, 32, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [160, 64, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [192, 0, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [192, 32, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [192, 64, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [224, 0, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [224, 32, 32, 32]
+				},
+				{
+					"source": "ToadNPC.png",
+					"rect": [256, 32, 32, 32]
+				},
+				{
+					"source": "KingerAndQueenie.png",
+					"rect": [0, 0, 32, 32],
+					"animations": {
+						"Await": {
+							"frames": [
+								[0, 0, 16, 32],
+								[16, 0, 16, 32]
+							],
+							"speed": 1,
+							"loop": true
+						},
+						"Talk": {
+							"frames": [
+								[0, 0, 16, 32],
+								[16, 0, 16, 32]
+							],
+							"speed": 2,
+							"loop": true
+						}
+					}
+				},
+				{
+					"source": "KingerAndQueenie.png",
+					"rect": [32, 0, 32, 32],
+					"animations": {
+						"Await": {
+							"frames": [
+								[0, 0, 16, 32],
+								[16, 0, 16, 32]
+							],
+							"speed": 1,
+							"loop": true
+						},
+						"Talk": {
+							"frames": [
+								[0, 0, 16, 32],
+								[16, 0, 16, 32]
+							],
+							"speed": 2,
+							"loop": true
+						}
+					}
+				}
 			]
 		}
 	}
