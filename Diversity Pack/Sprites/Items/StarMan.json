@@ -48,6 +48,102 @@
 			{
 				"source": "SuperStar.png",
 				"rect": [512, 0, 64, 16]
+			},
+			{
+				"source": "SuperStar.png",
+				"rect": [0, 0, 64, 16]
+			},
+			{
+				"source": "SuperStar.png",
+				"rect": [64, 0, 64, 16]
+			},
+			{
+				"source": "SuperStar.png",
+				"rect": [128, 0, 64, 16]
+			},
+			{
+				"source": "SuperStar.png",
+				"rect": [192, 0, 64, 16]
+			},
+			{
+				"source": "SuperStar.png",
+				"rect": [256, 0, 64, 16]
+			},
+			{
+				"source": "SuperStar.png",
+				"rect": [320, 0, 64, 16]
+			},
+			{
+				"source": "SuperStar.png",
+				"rect": [384, 0, 64, 16]
+			},
+			{
+				"source": "SuperStar.png",
+				"rect": [448, 0, 64, 16]
+			},
+			{
+				"source": "SuperStar.png",
+				"rect": [512, 0, 64, 16]
+			},
+			{
+				"source": "SuperStar.png",
+				"rect": [0, 0, 64, 16]
+			},
+			{
+				"source": "SuperStar.png",
+				"rect": [64, 0, 64, 16]
+			},
+			{
+				"source": "SuperStar.png",
+				"rect": [128, 0, 64, 16]
+			},
+			{
+				"source": "SuperStar.png",
+				"rect": [192, 0, 64, 16]
+			},
+			{
+				"source": "SuperStar.png",
+				"rect": [256, 0, 64, 16]
+			},
+			{
+				"source": "SuperStar.png",
+				"rect": [320, 0, 64, 16]
+			},
+			{
+				"source": "SuperStar.png",
+				"rect": [384, 0, 64, 16]
+			},
+			{
+				"source": "SuperStar.png",
+				"rect": [448, 0, 64, 16]
+			},
+			{
+				"source": "SuperStar.png",
+				"rect": [512, 0, 64, 16]
+			},
+			{
+				"source": "RareSuperStar.png",
+				"animations": {
+					"default": {
+						"frames": [
+							[0, 0, 16, 16],
+							[0, 0, 16, 16],
+							[0, 0, 16, 16],
+							[0, 0, 16, 16],
+							[0, 0, 16, 16],
+							[0, 0, 16, 16],
+							[0, 0, 16, 16],
+							[0, 0, 16, 16],
+							[0, 0, 16, 16],
+							[0, 0, 16, 16],
+							[16, 0, 16, 16],
+							[32, 0, 16, 16],
+							[48, 0, 16, 16]
+						],
+						"speed": 10,
+						"loop": true
+					}
+				}
 			}
 		]
 	}
