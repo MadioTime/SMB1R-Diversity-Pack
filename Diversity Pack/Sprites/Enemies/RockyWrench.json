@@ -1,0 +1,291 @@
+{
+	"animations": {
+		"Idle": {
+			"frames": [[0, 0, 16, 32]],
+			"speed": 5,
+			"loop": true
+		},
+		"Aim": {
+			"frames": [[16, 0, 16, 32]],
+			"speed": 5,
+			"loop": true
+		},
+		"Throw": {
+			"frames": [[32, 0, 16, 32]],
+			"speed": 5,
+			"loop": true
+		},
+		"Dead": {
+			"frames": [
+				[48, 0, 16, 32],
+				[64, 0, 16, 32]
+			],
+			"speed": 15,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"choices": [
+				{
+					"source": "RockyWrench.png",
+					"rect": [0, 0, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [80, 0, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [160, 0, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [240, 0, 80, 32]
+				}
+			]
+		},
+		"Underground": {
+			"choices": [
+				{
+					"source": "RockyWrench.png",
+					"rect": [0, 32, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [80, 32, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [160, 32, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [240, 32, 80, 32]
+				}
+			]
+		},
+		"GhostHouse": {"link": "Underground"},
+		"Castle": {
+			"choices": [
+				{
+					"source": "RockyWrench.png",
+					"rect": [0, 64, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [80, 64, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [160, 64, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [240, 64, 80, 32]
+				}
+			]
+		},
+		"Underwater": {
+			"choices": [
+				{
+					"source": "RockyWrench.png",
+					"rect": [0, 96, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [80, 96, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [160, 96, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [240, 96, 80, 32]
+				}
+			]
+		},
+		"CastleWater": {"link": "Underwater"},
+		"Desert": {
+			"choices": [
+				{
+					"source": "RockyWrench.png",
+					"rect": [0, 128, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [80, 128, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [160, 128, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [240, 128, 80, 32]
+				}
+			]
+		},
+		"Jungle": {
+			"choices": [
+				{
+					"source": "RockyWrench.png",
+					"rect": [0, 160, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [80, 160, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [160, 160, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [240, 160, 80, 32]
+				}
+			]
+		},
+		"Snow": {
+			"choices": [
+				{
+					"source": "RockyWrench.png",
+					"rect": [0, 192, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [80, 192, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [160, 192, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [240, 192, 80, 32]
+				}
+			]
+		},
+		"Volcano": {
+			"choices": [
+				{
+					"source": "RockyWrench.png",
+					"rect": [0, 224, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [80, 224, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [160, 224, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [240, 224, 80, 32]
+				}
+			]
+		},
+		"Autumn": {
+			"choices": [
+				{
+					"source": "RockyWrench.png",
+					"rect": [0, 256, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [80, 256, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [160, 256, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [240, 256, 80, 32]
+				}
+			]
+		},
+		"Beach": {
+			"choices": [
+				{
+					"source": "RockyWrench.png",
+					"rect": [0, 288, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [80, 288, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [160, 288, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [240, 288, 80, 32]
+				}
+			]
+		},
+		"Mountain": {
+			"choices": [
+				{
+					"source": "RockyWrench.png",
+					"rect": [0, 320, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [80, 320, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [160, 320, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [240, 320, 80, 32]
+				}
+			]
+		},
+		"Space": {
+			"choices": [
+				{
+					"source": "RockyWrench.png",
+					"rect": [0, 352, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [80, 352, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [160, 352, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [240, 352, 80, 32]
+				}
+			]
+		},
+		"Bonus": {
+			"choices": [
+				{
+					"source": "RockyWrench.png",
+					"rect": [0, 384, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [80, 384, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [160, 384, 80, 32]
+				},
+				{
+					"source": "RockyWrench.png",
+					"rect": [240, 384, 80, 32]
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,64 @@
+{
+	"animations": {
+		"Idle": {
+			"frames": [[0, 0, 32, 32]],
+			"speed": 5,
+			"loop": false
+		},
+		"Charge": {"link": "Idle"},
+		"Dive": {
+			"frames": [
+				[0, 0, 32, 32],
+				[0, 32, 32, 32]
+			],
+			"speed": 5,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"choices": [
+				{
+					"source": "HappyMoon.png",
+					"rect": [0, 0, 32, 64]
+				},
+				{
+					"source": "HappyMoon.png",
+					"rect": [32, 0, 32, 64]
+				},
+				{
+					"source": "HappyMoon.png",
+					"rect": [64, 0, 32, 64]
+				},
+				{
+					"source": "HappyMoon.png",
+					"rect": [96, 0, 32, 64]
+				},
+				{
+					"source": "HappyMoon.png",
+					"rect": [128, 0, 32, 64]
+				},
+				{
+					"source": "HappyMoon.png",
+					"rect": [160, 0, 32, 64]
+				},
+				{
+					"source": "HappyMoon.png",
+					"rect": [192, 0, 32, 64]
+				},
+				{
+					"source": "HappyMoon.png",
+					"rect": [224, 0, 32, 64]
+				},
+				{
+					"source": "HappyMoon.png",
+					"rect": [256, 0, 32, 64]
+				},
+				{
+					"source": "HappyMoon.png",
+					"rect": [288, 0, 32, 64]
+				}
+			]
+		}
+	}
+}

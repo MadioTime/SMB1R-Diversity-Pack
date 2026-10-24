@@ -1,0 +1,76 @@
+{
+	"animations": {
+		"IdleUp": {
+			"frames": [
+				[0, 0, 32, 24],
+				[32, 0, 32, 24]
+			],
+			"speed": 10,
+			"loop": false
+		},
+		"IdleDown": {
+			"frames": [
+				[64, 0, 32, 24],
+				[96, 0, 32, 24]
+			],
+			"speed": 10,
+			"loop": false
+		},
+		"AimUp": {
+			"frames": [[32, 0, 32, 24]],
+			"speed": 5,
+			"loop": true
+		},
+		"AimDown": {
+			"frames": [[96, 0, 32, 24]],
+			"speed": 5,
+			"loop": true
+		},
+		"ShootUp": {
+			"frames": [[0, 0, 32, 24]],
+			"speed": 5,
+			"loop": true
+		},
+		"ShootDown": {
+			"frames": [[64, 0, 32, 24]],
+			"speed": 5,
+			"loop": true
+		}
+	},
+	"variations": {
+		"config:Red Enemies": {
+			"Unique": {
+				"choices": [
+					{
+						"source": "RedFirePiranhaPlant.png",
+						"rect": [0, 0, 128, 24]
+					},
+					{
+						"source": "RedFirePiranhaPlant.png",
+						"rect": [0, 24, 128, 24]
+					},
+					{
+						"source": "RedFirePiranhaPlant.png",
+						"rect": [0, 48, 128, 24]
+					}
+				]
+			},
+			"Recolored": {
+				"choices": [
+					{
+						"source": "RedFirePiranhaPlantREC.png",
+						"rect": [0, 0, 128, 24]
+					},
+					{
+						"source": "RedFirePiranhaPlantREC.png",
+						"rect": [0, 24, 128, 24]
+					},
+					{
+						"source": "RedFirePiranhaPlantREC.png",
+						"rect": [0, 48, 128, 24]
+					}
+				]
+			}
+		}
+	}
+}

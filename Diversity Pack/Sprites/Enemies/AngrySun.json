@@ -1,0 +1,48 @@
+{
+	"animations": {
+		"Idle": {
+			"frames": [[0, 0, 32, 32]],
+			"speed": 5,
+			"loop": false
+		},
+		"Charge": {"link": "Idle"},
+		"Dive": {
+			"frames": [
+				[0, 0, 32, 32],
+				[0, 32, 32, 32]
+			],
+			"speed": 5,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"choices": [
+				{
+					"source": "AngrySun.png",
+					"rect": [0, 0, 32, 64]
+				},
+				{
+					"source": "AngrySun.png",
+					"rect": [32, 0, 32, 64]
+				},
+				{
+					"source": "AngrySun.png",
+					"rect": [64, 0, 32, 64]
+				},
+				{
+					"source": "AngrySun.png",
+					"rect": [96, 0, 32, 64]
+				},
+				{
+					"source": "AngrySun.png",
+					"rect": [128, 0, 32, 64]
+				},
+				{
+					"source": "AngrySun.png",
+					"rect": [160, 0, 32, 64]
+				}
+			]
+		}
+	}
+}

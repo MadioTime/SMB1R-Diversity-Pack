@@ -1,0 +1,94 @@
+{
+	"animations": {
+		"Head": {
+			"frames": [[0, 0, 32, 32]],
+			"speed": 5,
+			"loop": true
+		},
+		"Body": {
+			"frames": [[0, 32, 32, 32]],
+			"speed": 5,
+			"loop": true
+		}
+	},
+	"variations": {
+		"choices": [
+			{
+				"source": "Pokey.png",
+				"rect": [0, 0, 32, 64]
+			},
+			{
+				"source": "Pokey.png",
+				"rect": [32, 0, 32, 64]
+			},
+			{
+				"source": "Pokey.png",
+				"rect": [64, 0, 32, 64]
+			},
+			{
+				"source": "Pokey.png",
+				"rect": [96, 0, 32, 64]
+			},
+			{
+				"source": "Pokey.png",
+				"rect": [128, 0, 32, 64]
+			},
+			{
+				"source": "Pokey.png",
+				"rect": [160, 0, 32, 64]
+			},
+			{
+				"source": "Pokey.png",
+				"rect": [192, 0, 32, 64]
+			},
+			{
+				"source": "Pokey.png",
+				"rect": [224, 0, 32, 64]
+			},
+			{
+				"source": "Pokey.png",
+				"rect": [256, 0, 32, 64]
+			},
+			{
+				"source": "Pokey.png",
+				"rect": [0, 0, 32, 64]
+			},
+			{
+				"source": "Pokey.png",
+				"rect": [32, 0, 32, 64]
+			},
+			{
+				"source": "Pokey.png",
+				"rect": [64, 0, 32, 64]
+			},
+			{
+				"source": "Pokey.png",
+				"rect": [96, 0, 32, 64]
+			},
+			{
+				"source": "Pokey.png",
+				"rect": [128, 0, 32, 64]
+			},
+			{
+				"source": "Pokey.png",
+				"rect": [160, 0, 32, 64]
+			},
+			{
+				"source": "Pokey.png",
+				"rect": [192, 0, 32, 64]
+			},
+			{
+				"source": "Pokey.png",
+				"rect": [224, 0, 32, 64]
+			},
+			{
+				"source": "Pokey.png",
+				"rect": [256, 0, 32, 64]
+			},
+			{
+				"source": "Pokey.png",
+				"rect": [288, 0, 32, 64]
+			}
+		]
+	}
+}

@@ -1,0 +1,251 @@
+{
+	"animations": {
+		"Walk": {
+			"frames": [
+				[0, 0, 16, 24],
+				[16, 0, 16, 24]
+			],
+			"speed": 5,
+			"loop": true
+		},
+		"Hit": {
+			"frames": [[32, 0, 16, 24]],
+			"speed": 5,
+			"loop": true
+		}
+	},
+	"variations": {
+		"config:Broken Variants": {
+			"Off": {
+				"default": {
+					"source": "BobOmb.png",
+					"rect": [0, 0, 48, 24]
+				},
+				"Underground": {
+					"source": "BobOmb.png",
+					"rect": [0, 24, 48, 24]
+				},
+				"GhostHouse": {"link": "Underground"},
+				"Castle": {
+					"source": "BobOmb.png",
+					"rect": [0, 48, 48, 24]
+				},
+				"Snow": {
+					"source": "BobOmb.png",
+					"rect": [0, 72, 48, 24]
+				},
+				"Space": {
+					"source": "BobOmb.png",
+					"rect": [0, 96, 48, 24]
+				},
+				"Volcano": {
+					"source": "BobOmb.png",
+					"rect": [0, 120, 48, 24]
+				},
+				"Bonus": {
+					"source": "BobOmb.png",
+					"rect": [0, 144, 48, 24]
+				}
+			},
+			"On": {
+				"default": {
+					"choices": [
+						{
+							"source": "BobOmb.png",
+							"rect": [0, 0, 48, 24]
+						},
+						{
+							"source": "BobOmb.png",
+							"rect": [48, 0, 48, 24]
+						},
+						{
+							"source": "BobOmb.png",
+							"rect": [96, 0, 48, 24]
+						},
+						{
+							"source": "BobOmb.png",
+							"rect": [144, 0, 48, 24]
+						},
+						{
+							"source": "BobOmb.png",
+							"rect": [192, 0, 48, 24]
+						},
+						{
+							"source": "BobOmb.png",
+							"rect": [240, 0, 48, 24]
+						}
+					]
+				},
+				"Underground": {
+					"choices": [
+						{
+							"source": "BobOmb.png",
+							"rect": [0, 24, 48, 24]
+						},
+						{
+							"source": "BobOmb.png",
+							"rect": [48, 24, 48, 24]
+						},
+						{
+							"source": "BobOmb.png",
+							"rect": [96, 24, 48, 24]
+						},
+						{
+							"source": "BobOmb.png",
+							"rect": [144, 24, 48, 24]
+						},
+						{
+							"source": "BobOmb.png",
+							"rect": [192, 24, 48, 24]
+						},
+						{
+							"source": "BobOmb.png",
+							"rect": [240, 24, 48, 24]
+						}
+					]
+				},
+				"GhostHouse": {"link": "Underground"},
+				"Castle": {
+					"choices": [
+						{
+							"source": "BobOmb.png",
+							"rect": [0, 48, 48, 24]
+						},
+						{
+							"source": "BobOmb.png",
+							"rect": [48, 48, 48, 24]
+						},
+						{
+							"source": "BobOmb.png",
+							"rect": [96, 48, 48, 24]
+						},
+						{
+							"source": "BobOmb.png",
+							"rect": [144, 48, 48, 24]
+						},
+						{
+							"source": "BobOmb.png",
+							"rect": [192, 48, 48, 24]
+						},
+						{
+							"source": "BobOmb.png",
+							"rect": [240, 48, 48, 24]
+						}
+					]
+				},
+				"Snow": {
+					"choices": [
+						{
+							"source": "BobOmb.png",
+							"rect": [0, 72, 48, 24]
+						},
+						{
+							"source": "BobOmb.png",
+							"rect": [48, 72, 48, 24]
+						},
+						{
+							"source": "BobOmb.png",
+							"rect": [96, 72, 48, 24]
+						},
+						{
+							"source": "BobOmb.png",
+							"rect": [144, 72, 48, 24]
+						},
+						{
+							"source": "BobOmb.png",
+							"rect": [192, 72, 48, 24]
+						},
+						{
+							"source": "BobOmb.png",
+							"rect": [240, 72, 48, 24]
+						}
+					]
+				},
+				"Space": {
+					"choices": [
+						{
+							"source": "BobOmb.png",
+							"rect": [0, 96, 48, 24]
+						},
+						{
+							"source": "BobOmb.png",
+							"rect": [48, 96, 48, 24]
+						},
+						{
+							"source": "BobOmb.png",
+							"rect": [96, 96, 48, 24]
+						},
+						{
+							"source": "BobOmb.png",
+							"rect": [144, 96, 48, 24]
+						},
+						{
+							"source": "BobOmb.png",
+							"rect": [192, 96, 48, 24]
+						},
+						{
+							"source": "BobOmb.png",
+							"rect": [240, 96, 48, 24]
+						}
+					]
+				},
+				"Volcano": {
+					"choices": [
+						{
+							"source": "BobOmb.png",
+							"rect": [0, 120, 48, 24]
+						},
+						{
+							"source": "BobOmb.png",
+							"rect": [48, 120, 48, 24]
+						},
+						{
+							"source": "BobOmb.png",
+							"rect": [96, 120, 48, 24]
+						},
+						{
+							"source": "BobOmb.png",
+							"rect": [144, 120, 48, 24]
+						},
+						{
+							"source": "BobOmb.png",
+							"rect": [192, 120, 48, 24]
+						},
+						{
+							"source": "BobOmb.png",
+							"rect": [240, 120, 48, 24]
+						}
+					]
+				},
+				"Bonus": {
+					"choices": [
+						{
+							"source": "BobOmb.png",
+							"rect": [0, 144, 48, 24]
+						},
+						{
+							"source": "BobOmb.png",
+							"rect": [48, 144, 48, 24]
+						},
+						{
+							"source": "BobOmb.png",
+							"rect": [96, 144, 48, 24]
+						},
+						{
+							"source": "BobOmb.png",
+							"rect": [144, 144, 48, 24]
+						},
+						{
+							"source": "BobOmb.png",
+							"rect": [192, 144, 48, 24]
+						},
+						{
+							"source": "BobOmb.png",
+							"rect": [240, 144, 48, 24]
+						}
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,42 @@
+{
+	"animations": {
+		"Normal": {
+			"frames": [[0, 0, 16, 24]],
+			"speed": 5,
+			"loop": true
+		},
+		"Diagonal": {
+			"frames": [[16, 0, 24, 24]],
+			"speed": 5,
+			"loop": true
+		}
+	},
+	"variations": {
+		"choices": [
+			{
+				"source": "HomingBill.png",
+				"rect": [0, 0, 40, 24]
+			},
+			{
+				"source": "HomingBill.png",
+				"rect": [0, 24, 40, 24]
+			},
+			{
+				"source": "HomingBill.png",
+				"rect": [0, 48, 40, 24]
+			},
+			{
+				"source": "HomingBill.png",
+				"rect": [0, 72, 40, 24]
+			},
+			{
+				"source": "HomingBill.png",
+				"rect": [0, 96, 40, 24]
+			},
+			{
+				"source": "HomingBill.png",
+				"rect": [0, 120, 40, 24]
+			}
+		]
+	}
+}

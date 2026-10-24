@@ -1,0 +1,489 @@
+{
+	"animations": {
+		"Jump": {
+			"frames": [[0, 0, 16, 16]],
+			"speed": 5,
+			"loop": true
+		},
+		"Walk": {
+			"frames": [
+				[16, 0, 16, 16],
+				[32, 0, 16, 16]
+			],
+			"speed": 10,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"choices": [
+				{
+					"source": "MontyMole.png",
+					"rect": [0, 0, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [48, 0, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [96, 0, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [144, 0, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [192, 0, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [240, 0, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [288, 0, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [336, 0, 48, 16]
+				}
+			]
+		},
+		"Underground": {
+			"choices": [
+				{
+					"source": "MontyMole.png",
+					"rect": [0, 16, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [48, 16, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [96, 16, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [144, 16, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [192, 16, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [240, 16, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [288, 16, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [336, 16, 48, 16]
+				}
+			]
+		},
+		"GhostHouse": {"link": "Underground"},
+		"Castle": {
+			"choices": [
+				{
+					"source": "MontyMole.png",
+					"rect": [0, 32, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [48, 32, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [96, 32, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [144, 32, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [192, 32, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [240, 32, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [288, 32, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [336, 32, 48, 16]
+				}
+			]
+		},
+		"Underwater": {
+			"choices": [
+				{
+					"source": "MontyMole.png",
+					"rect": [0, 48, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [48, 48, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [96, 48, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [144, 48, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [192, 48, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [240, 48, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [288, 48, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [336, 48, 48, 16]
+				}
+			]
+		},
+		"CastleWater": {"link": "Underwater"},
+		"Desert": {
+			"choices": [
+				{
+					"source": "MontyMole.png",
+					"rect": [0, 64, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [48, 64, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [96, 64, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [144, 64, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [192, 64, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [240, 64, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [288, 64, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [336, 64, 48, 16]
+				}
+			]
+		},
+		"Jungle": {
+			"choices": [
+				{
+					"source": "MontyMole.png",
+					"rect": [0, 80, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [48, 80, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [96, 80, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [144, 80, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [192, 80, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [240, 80, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [288, 80, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [336, 80, 48, 16]
+				}
+			]
+		},
+		"Snow": {
+			"choices": [
+				{
+					"source": "MontyMole.png",
+					"rect": [0, 96, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [48, 96, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [96, 96, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [144, 96, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [192, 96, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [240, 96, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [288, 96, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [336, 96, 48, 16]
+				}
+			]
+		},
+		"Volcano": {
+			"choices": [
+				{
+					"source": "MontyMole.png",
+					"rect": [0, 112, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [48, 112, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [96, 112, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [144, 112, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [192, 112, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [240, 112, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [288, 112, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [336, 112, 48, 16]
+				}
+			]
+		},
+		"Autumn": {
+			"choices": [
+				{
+					"source": "MontyMole.png",
+					"rect": [0, 128, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [48, 128, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [96, 128, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [144, 128, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [192, 128, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [240, 128, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [288, 128, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [336, 128, 48, 16]
+				}
+			]
+		},
+		"Beach": {
+			"choices": [
+				{
+					"source": "MontyMole.png",
+					"rect": [0, 144, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [48, 144, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [96, 144, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [144, 144, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [192, 144, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [240, 144, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [288, 144, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [336, 144, 48, 16]
+				}
+			]
+		},
+		"Mountain": {
+			"choices": [
+				{
+					"source": "MontyMole.png",
+					"rect": [0, 160, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [48, 160, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [96, 160, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [144, 160, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [192, 160, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [240, 160, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [288, 160, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [336, 160, 48, 16]
+				}
+			]
+		},
+		"Space": {
+			"choices": [
+				{
+					"source": "MontyMole.png",
+					"rect": [0, 176, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [48, 176, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [96, 176, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [144, 176, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [192, 176, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [240, 176, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [288, 176, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [336, 176, 48, 16]
+				}
+			]
+		},
+		"Bonus": {
+			"choices": [
+				{
+					"source": "MontyMole.png",
+					"rect": [0, 192, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [48, 192, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [96, 192, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [144, 192, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [192, 192, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [240, 192, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [288, 192, 48, 16]
+				},
+				{
+					"source": "MontyMole.png",
+					"rect": [336, 192, 48, 16]
+				}
+			]
+		}
+	}
+}
